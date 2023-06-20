@@ -29,35 +29,59 @@ if fecha_anterior not in dates.date:
 
 
 
+####################################
+
+
+
 
 def matches():          ## esta funcion recolecta solo links de matches en el archivo matches.csv
                         ## en el caso de que hayan matches empieza a buscar en fechas anteriores a la del match mas viejo
     from datetime import date, datetime, timedelta
+    from one_function import matches
+
+    last_date = ''
 
     while 1 == 1:
+    
         dates = pd.read_csv('data/dates.csv')
         
         if(dates.empty):
             a = matches('')
+            # quizas aca arriba hay un problema porque daria los datos de hoy y se necesitan como maximo de ayer
             for match in a:
                 dates.append({'date': date.today().strftime('%Y-%m-%d'), 'match': match})
 
-        else:
+
+        else: 
+
             oldest = dates['date'].min()
             oldest = oldest.strftime('%Y-%m-%d')
 
-            def previous_day(date):
-                date = datetime.strptime(date, '%Y-%m-%d')
-                p_date = date - timedelta(days=1)
-                return p_date.strftime('%Y-%m-%d') 
+            if(last_date != ''):
+                oldest = last_date
 
-            a = matches(previous_day(oldest))
-            for match in a:
-                dates.append({'date': oldest, 'match': match})
-            
+            if(oldest not in dates['date']):
+
+                def previous_day(date):# 
+                    date = datetime.strptime(date, '%Y-%m-%d')
+                    p_date = date - timedelta(days=1)
+                    return p_date.strftime('%Y-%m-%d') 
+
+                a = matches(previous_day(oldest))
+                for match in a:
+                    dates.append({'date': oldest, 'match': match})
+
+
+            last_date = previous_day(oldest)
 
         dates.to_csv('data/dates.csv')
 
+
+
+
+
+def names_&_points():
+    arstarst 
 
 
 
