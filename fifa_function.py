@@ -130,14 +130,14 @@ def statistics(name):
 
     #####
 
-    import re
-    def extraer_numero(texto):
-        numeros = re.findall(r'\d+', texto)
+    #import re
+    #def extraer_numero(texto):
+    #    numeros = re.findall(r'\d+', texto)
 
-        if numeros:
-            return int(numeros[0])
+    #    if numeros:
+    #        return int(numeros[0])
         
-        return None
+    #    return None
 
 
 
@@ -163,12 +163,12 @@ def statistics(name):
         lista_plana.extend(sublist)
 
     
-
+    import re
     anterior = ''
     for i in range(len(lista_plana)):
-        if anterior == 'Height':  Height =      extraer_numero(lista_plana[i])
-        if anterior == 'Weight':  Weight =      extraer_numero(lista_plana[i])
-        if anterior == 'Age':     Age =         extraer_numero(lista_plana[i])
+        if anterior == 'Height':  Height =      re.findall(r'\d+', lista_plana[i])[0]
+        if anterior == 'Weight':  Weight =      re.findall(r'\d+', lista_plana[i])[0]
+        if anterior == 'Age':     Age =         re.findall(r'\d+', lista_plana[i])[0]
         anterior = lista_plana[i]
 
 
@@ -176,14 +176,14 @@ def statistics(name):
 
     driver.quit()
 
-
-    return {Ball_Control, Dribbling, Marking, Slide_Tackle ,Stand_Tackle, Aggression, Reactions,
+    #print(Ball_Control, Dribbling, Marking, Slide_Tackle ,Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing,Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age)
+    return [Ball_Control, Dribbling, Marking, Slide_Tackle ,Stand_Tackle, Aggression, Reactions,
             Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration,
             Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing,
             Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, 
-            GK_Kicking, GK_Reflexes ,Height, Weight, Age}
+            GK_Kicking, GK_Reflexes ,Height, Weight, Age]
 
-
+    #return Ball_Control, Dribbling, Marking, Slide_Tackle ,Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing,Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age
     
         
     

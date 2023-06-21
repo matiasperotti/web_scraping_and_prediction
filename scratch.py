@@ -1,43 +1,10 @@
 
-import pandas as pd
-
-
-dates = pd.read_csv('dates.csv')
-
-last_match = #yqs
-# funcion que busque la fecha anterior
-
-
-if fecha_anterior not in dates.date:
-
-    a = matches(fecha_anterior)
-
-    # funcion que recolecta nombres de jugadores
-
-    players = pd.read_csv('players.csv')
-
-    for name in list_names:
-        if name in players.name:
-            # append estadisticas en nueva tabla
-        else:
-            # nueva_tabla.append(fifa_function.statistics(name))
-
-    players.to_csv('players.csv')
-
-    # nueva_tabla deberia ser la tabla donde esten los partidos y stats, y todo este if 
-    # deberia estar preguntando tambien ahi por los juegos o algo asi
-
-
-
-####################################
-
-
-
 
 def matches():          ## esta funcion recolecta solo links de matches en el archivo matches.csv
                         ## en el caso de que hayan matches empieza a buscar en fechas anteriores a la del match mas viejo
     from datetime import date, datetime, timedelta
     from one_function import matches
+    from info_function import get_info
 
     last_date = ''
 
@@ -49,8 +16,28 @@ def matches():          ## esta funcion recolecta solo links de matches en el ar
             a = matches('')
             # quizas aca arriba hay un problema porque daria los datos de hoy y se necesitan como maximo de ayer
             for match in a:
-                dates.append({'date': date.today().strftime('%Y-%m-%d'), 'match': match})
+                datte = date.today().strftime('%Y-%m-%d')
+                info = get_info(match)
 
+                dates.append({'date': datte, 'match': match, 'points': info[0], 'team1': info[1], 'team2': info[2]})
+
+                #
+                names = info[0] + info[1]
+                from fifa_function import statistics
+
+                for name in names:
+
+                    df = pd.read_csv('data/players.csv')
+                    if(name not in df['name']):
+
+                        columns = ['name', 'Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle' ,'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
+
+                        values = statistics(name)
+
+                        df = df.append(pd.Series([name] + values, index=df.columns), ignore_index=True)
+
+                        df.to_csv('data/players.csv')
+                #
 
         else: 
 
@@ -68,20 +55,38 @@ def matches():          ## esta funcion recolecta solo links de matches en el ar
                     return p_date.strftime('%Y-%m-%d') 
 
                 a = matches(previous_day(oldest))
-                for match in a:
-                    dates.append({'date': oldest, 'match': match})
 
+                for match in a:
+                    info = get_info(match)
+
+                    dates.append({'date': oldest, 'match': match, 'points': info[0], 'team1': info[1], 'team2': info[2]})
+
+                    #
+                    names = info[0] + info[1]
+                    from fifa_function import statistics
+
+                    for name in names:
+
+                        df = pd.read_csv('data/players.csv')
+                        if(name not in df['name']):
+
+                            columns = ['name', 'Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle' ,'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
+
+                            values = statistics(name)
+
+                            df = df.append(pd.Series([name] + values, index=df.columns), ignore_index=True)
+
+                            df.to_csv('data/players.csv')
+                    #
 
             last_date = previous_day(oldest)
 
         dates.to_csv('data/dates.csv')
 
 
+# falta una ultima (pero quizas en el feature engineering) que junte las estadisticas de todos los jugadores 
+# de ese se podrian hacer varias versiones para probar distintos features calculados
 
-
-
-def names_&_points():
-    arstarst 
 
 
 

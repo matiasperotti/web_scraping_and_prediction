@@ -31,7 +31,7 @@ def get_info(url):
     first_team = return_names()
 
     import time
-    time.sleep(3)
+    time.sleep(5)
 
 
     try:
