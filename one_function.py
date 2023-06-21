@@ -4,15 +4,10 @@ def matches(date):
         
     from selenium.webdriver.chrome.options import Options
     from selenium import webdriver
+    import selenium
 
 
     adblock = '/home/user/Desktop/futbol/Adblock-Plusfree-ad-blocker.crx'
-
-
-    options = Options()
-    options.add_extension(adblock)
-
-
 
 
 
@@ -33,7 +28,12 @@ def matches(date):
     driver = webdriver.Chrome(options=options, chrome_options=chrome_options, executable_path='/usr/bin/chromedriver')
 
 
-    driver.get('https://onefootball.com/es/partidos?date='+date) # format 2-03-27
+    if(date == ''):
+        driver.get('https://onefootball.com/es/partidos/yesterday')
+
+    else:
+
+        driver.get('https://onefootball.com/es/partidos?date='+date) # format 2-03-27
 
     clase = 'MatchCard_matchCard__JSuaw'
 
