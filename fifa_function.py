@@ -11,6 +11,9 @@ def statistics(name):
     from selenium.webdriver.common.by import By
     import pandas as pd
 
+    columns = ['Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
+
+
     adblock = '/home/user/Desktop/futbol/Adblock-Plusfree-ad-blocker.crx'
 
 
@@ -39,7 +42,7 @@ def statistics(name):
 
     url = 'https://www.fifaindex.com'
 
-    driver.set_page_load_timeout(10)
+    driver.set_page_load_timeout(15)
     driver.implicitly_wait(2)
 
     try:
@@ -62,7 +65,7 @@ def statistics(name):
 
     actions.click(input_field).perform()
 
-    time.sleep(8) # idealmente esto es reemplazado con algo que checkea que ya aparecio la lista
+    time.sleep(5) # idealmente esto es reemplazado con algo que checkea que ya aparecio la lista
 
     input_field.send_keys(Keys.RETURN)
 
@@ -169,10 +172,16 @@ def statistics(name):
             if anterior == 'Age':     Age =         re.findall(r'\d+', lista_plana[i])[0]
             anterior = lista_plana[i]
 
+        
+
 
     else:
         Ball_Control, Dribbling, Marking, Slide_Tackle, Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing, Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age = ['None']*35
 
+
+    for column in columns:
+        if column not in globals():
+            globals()[column] = 'None'
 
 
     driver.quit()
