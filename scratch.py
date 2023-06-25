@@ -24,7 +24,7 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
             if(last_date != ''):
                 oldest = last_date
 
-            if(oldest not in match['date']):
+            if(oldest not in match['date'].values):
 
                 def previous_day(date):# 
                     date = datetime.strptime(date, '%Y-%m-%d')
@@ -35,33 +35,35 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
 
                 for matchh in a:
 
-                    info = get_info(matchh)
-                    if(len(info[1]) != 0):
+                    if(matchh not in match['match'].values):
 
-                        match = match.append({'date': oldest, 'match': matchh, 'points': info[0], 'team1': info[1], 'team2': info[2]}, ignore_index=True)
+                        info = get_info(matchh)
+                        if(len(info[1]) != 0):
 
+                            match = match.append({'date': oldest, 'match': matchh, 'points': info[0], 'team1': info[1], 'team2': info[2]}, ignore_index=True)
+
+                            #
+                            names = info[1] + info[2]
+                            from fifa_function import statistics
+
+                            for name in names:
+
+                                df = pd.read_csv('data/players.csv', header=0)
+                                if(not df['name'].str.contains(name).any()):
+
+
+                                    columns = ['name', 'Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle' ,'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
+
+                                    values = statistics(name)
+
+                                    df = df.append(pd.Series([name] + values, index=columns), ignore_index=True)
+                                    df = df[columns]#
+
+                                    df.to_csv('data/players.csv')
                         #
-                        names = info[1] + info[2]
-                        from fifa_function import statistics
-
-                        for name in names:
-
-                            df = pd.read_csv('data/players.csv', header=0)
-                            if(not df['name'].str.contains(name).any()):
-
-
-                                columns = ['name', 'Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle' ,'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
-
-                                values = statistics(name)
-
-                                df = df.append(pd.Series([name] + values, index=columns), ignore_index=True)
-                                df = df[columns]#
-
-                                df.to_csv('data/players.csv')
-                    #
-                        matchcolumns = ['date', 'match', 'points', 'team1', 'team2']
-                        match = match[matchcolumns]
-                        match.to_csv('data/matches.csv') #######
+                            matchcolumns = ['date', 'match', 'points', 'team1', 'team2']
+                            match = match[matchcolumns]
+                            match.to_csv('data/matches.csv') #######
 
             last_date = previous_day(oldest)
 

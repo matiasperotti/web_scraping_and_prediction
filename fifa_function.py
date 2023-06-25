@@ -11,8 +11,6 @@ def statistics(name):
     from selenium.webdriver.common.by import By
     import pandas as pd
 
-    columns = ['Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
-
 
     adblock = '/home/user/Desktop/futbol/Adblock-Plusfree-ad-blocker.crx'
 
@@ -172,19 +170,74 @@ def statistics(name):
             if anterior == 'Age':     Age =         re.findall(r'\d+', lista_plana[i])[0]
             anterior = lista_plana[i]
 
-        
-
 
     else:
         Ball_Control, Dribbling, Marking, Slide_Tackle, Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing, Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age = ['None']*35
 
 
-    for column in columns:
-        if column not in globals():
-            globals()[column] = 'None'
+    #columns = ['Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
+    #for column in columns:
+    #    if column not in locals(): # cambie globals por locals
+    #        locals()[column] = 'None' # igual
 
+    """
+    def aaa():
+
+        columns = ['Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
+        returnn = []
+        for column in columns:
+            if column in locals():
+                returnn.append(locals()[column])
+            else:
+                returnn.append('None')
+
+        return returnn
+    """
 
     driver.quit()
+
+
+    if 'Ball_Control'     not in locals(): Ball_Control   = 'None'
+    if 'Dribbling'        not in locals(): Dribbling      = 'None'
+    if 'Marking'          not in locals(): Marking        = 'None'
+    if 'Slide_Tackle'     not in locals(): Slide_Tackle   = 'None'
+    if 'Stand_Tackle'     not in locals(): Stand_Tackle   = 'None'
+    if 'Aggression'       not in locals(): Aggression     = 'None'
+    if 'Reactions'        not in locals(): Reactions      = 'None'
+    if 'Att_Position'     not in locals(): Att_Position   = 'None'
+    if 'Interceptions'    not in locals(): Interceptions  = 'None'
+    if 'Vision'           not in locals(): Vision         = 'None'
+    if 'Short_Pass'       not in locals(): Short_Pass     = 'None'
+    if 'Long_Pass'        not in locals(): Long_Pass      = 'None'
+    if 'Acceleration'     not in locals(): Acceleration   = 'None'
+    if 'Stamina'          not in locals(): Stamina        = 'None'
+    if 'Strength'         not in locals(): Strength       = 'None'
+    if 'Balance'          not in locals(): Balance        = 'None'
+    if 'Sprint_Speed'     not in locals(): Sprint_Speed   = 'None'
+    if 'Agility'          not in locals(): Agility        = 'None'
+    if 'Jumping'          not in locals(): Jumping        = 'None'
+    if 'Heading'          not in locals(): Heading        = 'None'
+    if 'Shot_Power'       not in locals(): Shot_Power     = 'None'
+    if 'Finishing'        not in locals(): Finishing      = 'None'
+    if 'Long_Shots'       not in locals(): Long_Shots     = 'None'
+    if 'Curve'            not in locals(): Curve          = 'None'
+    if 'FK_Acc'           not in locals(): FK_Acc         = 'None'
+    if 'Penalties'        not in locals(): Penalties      = 'None'
+    if 'Volleys'          not in locals(): Volleys        = 'None'
+    if 'GK_Positioning'   not in locals(): GK_Positioning = 'None'
+    if 'GK_Diving'        not in locals(): GK_Diving      = 'None'
+    if 'GK_Handling'      not in locals(): GK_Handling    = 'None'
+    if 'GK_Kicking'       not in locals(): GK_Kicking     = 'None'
+    if 'GK_Reflexes'      not in locals(): GK_Reflexes    = 'None'
+    if 'Height'           not in locals(): Height         = 'None'
+    if 'Weight'           not in locals(): Weight         = 'None'
+    if 'Age'              not in locals(): Age            = 'None'
+    
+    
+    
+    #aaa()
+    #returnn = aaa()
+    #return returnn
 
     #print(Ball_Control, Dribbling, Marking, Slide_Tackle ,Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing,Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age)
     return [Ball_Control, Dribbling, Marking, Slide_Tackle, Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing, Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age]
