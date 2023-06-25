@@ -19,7 +19,6 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
             oldest = match['date'].min()
             oldest = datetime.strptime(oldest, '%Y-%m-%d')
             oldest = oldest.strftime('%Y-%m-%d')
-            #oldest = oldest.strftime('%Y-%m-%d')
 
             if(last_date != ''):
                 oldest = last_date
@@ -63,7 +62,7 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
                         #
                             matchcolumns = ['date', 'match', 'points', 'team1', 'team2']
                             match = match[matchcolumns]
-                            match.to_csv('data/matches.csv') #######
+                            match.to_csv('data/matches.csv') 
 
             last_date = previous_day(oldest)
 
@@ -106,7 +105,7 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
 
                     matchcolumns = ['date', 'match', 'points', 'team1', 'team2']
                     match = match[matchcolumns]
-                    match.to_csv('data/matches.csv') ###
+                    match.to_csv('data/matches.csv')
 
         
 

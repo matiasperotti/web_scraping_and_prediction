@@ -12,14 +12,14 @@ def statistics(name):
     import pandas as pd
 
 
-    adblock = '/home/user/Desktop/futbol/Adblock-Plusfree-ad-blocker.crx'
+    adblock = './Adblock-Plusfree-ad-blocker.crx'
 
 
     options = Options()
     options.add_extension(adblock)
 
 
-    options.headless = False#original con True
+    options.headless = False
 
     chrome_options = webdriver.ChromeOptions()
 
@@ -35,9 +35,6 @@ def statistics(name):
     driver.set_window_size(1920, 1080)
 
 
-    #import time #####
-    #start_time = time.time() ####
-
     url = 'https://www.fifaindex.com'
 
     driver.set_page_load_timeout(15)
@@ -48,9 +45,6 @@ def statistics(name):
 
     except:
         pass
-
-    #load_time = time.time() - start_time ####
-    #print("la pagina tardo " + str(load_time)) ####
 
 
     input_field = driver.find_element(By.ID, 'site-search')
@@ -67,8 +61,7 @@ def statistics(name):
 
     input_field.send_keys(Keys.RETURN)
 
-    ###
-    #time.sleep(2)
+
 
     elementos_indice = driver.find_elements(By.XPATH, '//*[@class="item"]')
     aa = []
@@ -76,11 +69,11 @@ def statistics(name):
     for elemento in elementos_indice:
         aa.append(elemento.text)
 
-    ###
+
 
     listapalabras = []
 
-    #variable_anterior = ''
+
     for elemento in aa:
         if '\n' in elemento:
             palabras = elemento.split('\n')
@@ -175,25 +168,6 @@ def statistics(name):
         Ball_Control, Dribbling, Marking, Slide_Tackle, Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing, Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age = ['None']*35
 
 
-    #columns = ['Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
-    #for column in columns:
-    #    if column not in locals(): # cambie globals por locals
-    #        locals()[column] = 'None' # igual
-
-    """
-    def aaa():
-
-        columns = ['Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
-        returnn = []
-        for column in columns:
-            if column in locals():
-                returnn.append(locals()[column])
-            else:
-                returnn.append('None')
-
-        return returnn
-    """
-
     driver.quit()
 
 
@@ -234,12 +208,6 @@ def statistics(name):
     if 'Age'              not in locals(): Age            = 'None'
     
     
-    
-    #aaa()
-    #returnn = aaa()
-    #return returnn
-
-    #print(Ball_Control, Dribbling, Marking, Slide_Tackle ,Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing,Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age)
     return [Ball_Control, Dribbling, Marking, Slide_Tackle, Stand_Tackle, Aggression, Reactions, Att_Position, Interceptions, Vision, Short_Pass, Long_Pass, Acceleration, Stamina, Strength, Balance, Sprint_Speed, Agility, Jumping, Heading, Shot_Power, Finishing, Long_Shots, Curve, FK_Acc, Penalties, Volleys, GK_Positioning, GK_Diving, GK_Handling, GK_Kicking, GK_Reflexes ,Height, Weight, Age]
 
     

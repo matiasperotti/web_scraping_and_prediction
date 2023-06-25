@@ -15,7 +15,7 @@ def matches(date):
     options.add_extension(adblock)
 
 
-    options.headless = False#original con True
+    options.headless = False
 
     chrome_options = webdriver.ChromeOptions()
 

@@ -33,7 +33,6 @@ def get_info(url):
         flag = 0
 
     if(flag == 1):
-        #spans = driver.find_element_by_css_selector('a["title-7-medium MatchLineupFlat_playerName__igpy2"]')
         spans = driver.find_elements_by_xpath("//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
         first_team = return_names()
 
@@ -74,7 +73,6 @@ def get_info(url):
                 second_team = return_names()
 
             elif(flag == 1):
-                #spans = driver.find_element_by_css_selector('a["title-7-medium MatchLineupFlat_playerName__igpy2"]')
                 spans = driver.find_elements_by_xpath("//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
                 second_team = return_names()
 
