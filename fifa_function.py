@@ -15,22 +15,25 @@ def statistics(name):
     adblock = './Adblock-Plusfree-ad-blocker.crx'
 
 
-    options = Options()
-    options.add_extension(adblock)
+    #options = Options()
 
+    options = webdriver.ChromeOptions()
 
-    options.headless = False
-
-    chrome_options = webdriver.ChromeOptions()
-
-    chrome_options.add_argument('--blink-settings=imagesEnabled=false')
-
-    chrome_options.add_experimental_option(
+    options.add_argument('--blink-settings=imagesEnabled=false')
+    options.add_argument('--headless')
+    options.add_experimental_option(
         "prefs", {"profile.managed_default_content_settings.images": 2}
     )
+    #options.binary_location = '/usr/bin/google-chrome-stable'
+    options.add_argument('--display=99')
+    #options.add_extension(adblock)
+    options.add_argument('--no-sandbox')
+    options.add_argument('--user-data-dir= /home/ubuntu/user-data-dir')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add-argument('--disable-gpu')
 
-    driver = webdriver.Chrome(options=options, chrome_options=chrome_options, executable_path='/usr/bin/chromedriver')
-
+    driver = webdriver.Chrome(options=options)
+    driver.executable_path = '/usr/bin/chromedriver'
 
     driver.set_window_size(1920, 1080)
 

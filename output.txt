@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/futbol_scratch_-_prediction/scratch.py", line 121, in <module>
+    scratch()
+  File "/home/ubuntu/futbol_scratch_-_prediction/scratch.py", line 40, in scratch
+    info = get_info(matchh)
+  File "/home/ubuntu/futbol_scratch_-_prediction/info_function.py", line 61, in get_info
+    time.sleep(7)
+KeyboardInterrupt
