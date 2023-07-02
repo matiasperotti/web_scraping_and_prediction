@@ -10,6 +10,8 @@ def statistics(name):
     from selenium.webdriver.common.action_chains import ActionChains
     from selenium.webdriver.common.by import By
     import pandas as pd
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
 
 
     adblock = './Adblock-Plusfree-ad-blocker.crx'
@@ -30,32 +32,35 @@ def statistics(name):
     options.add_argument('--no-sandbox')
     options.add_argument('--user-data-dir= /home/ubuntu/user-data-dir')
     options.add_argument('--disable-dev-shm-usage')
-    options.add-argument('--disable-gpu')
+    options.add_argument('--disable-gpu')
 
-    driver = webdriver.Chrome(options=options)
-    driver.executable_path = '/usr/bin/chromedriver'
+    
+    while True:
+        
+        try:
+            driver = webdriver.Chrome(options=options)
+            driver.executable_path = '/usr/bin/chromedriver'
+            driver.set_window_size(1920, 1080)
+            url = 'https://www.fifaindex.com'
+    
+            #driver.set_page_load_timeout(17)
+            driver.implicity_wait(16)
+            driver.get(url)
+            break
 
-    driver.set_window_size(1920, 1080)
+        except:
+            driver.quit()
+            
 
-
-    url = 'https://www.fifaindex.com'
-
-    driver.set_page_load_timeout(15)
-    driver.implicitly_wait(2)
-
-    try:
-        driver.get(url)
-
-    except:
-        pass
-
+    time.sleep(2)
 
     input_field = driver.find_element(By.ID, 'site-search')
-
+    
 
     input_field.send_keys(name)
 
-    driver.execute_script("document.getElementById('site-search').click();")
+    #driver.execute_script("document.getElementById('site-search').click();")
+    driver.find_element(By.ID, "site-search").click()
     actions = ActionChains(driver)
 
     actions.click(input_field).perform()

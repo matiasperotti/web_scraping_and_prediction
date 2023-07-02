@@ -1,483 +1,413 @@
-[0628/051923.870017:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/js
-[0628/051923.870155:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/wasm
-[0628/051923.870238:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/wasm
-[0628/051923.870249:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/js
-[0628/051923.870257:ERROR:simple_backend_impl.cc(738)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/wasm
-[0628/051923.870279:ERROR:simple_backend_impl.cc(738)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/js
-[0628/051923.870482:ERROR:disk_cache.cc(205)] Unable to create cache
-[0628/051923.870507:ERROR:disk_cache.cc(205)] Unable to create cache
-[0628/051923.893337:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893387:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893398:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893407:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893415:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893425:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893433:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893441:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893450:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893460:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893469:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893478:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893486:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893495:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893503:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893512:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893521:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893530:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893539:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893549:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893558:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893567:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893576:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893585:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893594:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893603:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893612:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893620:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893629:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893651:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893660:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893670:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893679:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893688:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893697:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893706:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893715:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893742:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893753:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893763:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893773:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893782:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893791:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893801:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893810:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893818:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893827:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893837:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893847:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893855:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893864:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893873:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893881:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893891:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893899:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893908:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893917:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893926:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893935:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893944:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893953:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893961:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893971:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893979:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893988:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.893997:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894005:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894014:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894023:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894032:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894063:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894072:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894081:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894089:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894098:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894107:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894115:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894125:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894135:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894144:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894153:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894162:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894170:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894179:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894187:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894197:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894206:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894215:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894237:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894247:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894256:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894266:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894277:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894285:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894295:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894304:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894313:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894322:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894330:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894339:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894715:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894737:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894746:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894758:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894767:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894776:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894785:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894794:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894803:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894811:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894821:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894830:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894839:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894848:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894856:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894865:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894873:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894883:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894892:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894901:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894909:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894918:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894928:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894937:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894945:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894954:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894963:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894973:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894982:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.894990:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895000:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895010:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895019:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895028:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895037:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895046:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895055:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895064:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895074:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895083:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895105:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895113:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895122:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895132:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895141:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895150:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895160:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895169:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895179:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895188:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895196:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895204:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895213:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895540:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895555:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895565:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895574:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895584:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895593:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895603:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895612:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895622:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895632:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895641:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895650:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895659:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895669:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895678:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895688:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895697:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895706:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895858:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895878:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895888:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895897:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895906:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.895979:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896018:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896046:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896054:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896062:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896096:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896134:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896167:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896178:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896187:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896196:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896206:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896216:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896226:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896236:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896246:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896267:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896277:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896287:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896296:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896305:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896314:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896323:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896333:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.896438:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
-[0628/051923.897763:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897797:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897807:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897816:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897825:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897835:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897923:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897931:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897938:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897944:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897951:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897957:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897963:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897971:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897980:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.897990:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898000:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898010:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898020:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898027:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898033:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898039:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898045:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898052:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898059:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898068:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898078:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898088:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898097:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898106:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898116:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898125:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898134:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898143:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898153:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898162:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898172:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898182:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898191:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898201:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898594:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898611:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898883:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898901:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.898911:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899004:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899010:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899016:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899022:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899029:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899067:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899074:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899080:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899086:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899092:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899098:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899105:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899111:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899117:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899123:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899129:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899135:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899142:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899151:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899173:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899184:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899193:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899202:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899211:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899248:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899260:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899268:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899274:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899280:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899286:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899292:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899299:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899305:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899311:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899317:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899323:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899330:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899336:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899342:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899348:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899354:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899361:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899367:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899373:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899379:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899385:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899392:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899398:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899404:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899427:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899433:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899440:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899446:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899452:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899458:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899610:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899620:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899626:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899632:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899638:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899645:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899651:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899657:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899663:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899669:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899676:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899682:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899689:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899695:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899701:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899707:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899714:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899720:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899726:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899732:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899739:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899745:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899751:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899757:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899764:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899770:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899776:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899782:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899789:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899795:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899801:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899808:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899814:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899821:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899827:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899833:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899840:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899846:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899852:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899858:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899865:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899871:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899877:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899884:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899890:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899897:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899909:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899915:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899922:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899928:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899934:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899940:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899947:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899953:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899959:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899965:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899971:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899978:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899984:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.899992:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900002:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900011:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900020:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900029:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900039:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900048:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900057:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900067:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900077:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900083:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900090:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900096:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900102:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900108:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900114:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900120:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900127:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900133:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900139:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900145:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900152:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900158:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900164:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900170:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900176:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900182:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900189:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900195:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900201:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900207:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900213:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900220:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900226:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900232:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900238:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900245:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900251:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900257:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900272:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.900278:WARNING:cache_util.cc(137)] Unable to delete cache folder.
-[0628/051923.907560:ERROR:disk_cache.cc(205)] Unable to create cache
-[0628/051923.907610:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
-[0628/051923.907627:ERROR:disk_cache.cc(205)] Unable to create cache
-[0628/051923.907633:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
-[0628/051924.880124:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/52.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051924.880447:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/52.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051924.880735:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/127.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051924.880954:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/127.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051930.191745:ERROR:quota_database.cc(939)] Could not open the quota database, resetting.
-[0628/051930.191907:ERROR:quota_database.cc(939)] Could not open the quota database, resetting.
-[0628/051930.191956:ERROR:quota_database.cc(941)] Failed to reset the quota database.
-[0628/051930.191968:ERROR:quota_database.cc(941)] Failed to reset the quota database.
-[0628/051930.192697:WARNING:quota_manager_impl.cc(3056)] Create directory failed for path/home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default
-[0628/051930.192903:ERROR:quota_settings.cc(126)] Unable to compute QuotaSettings.
-[0628/051930.193009:WARNING:quota_manager_impl.cc(2620)] No storage quota provided in QuotaSettings.
-[0628/051930.199899:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051930.200989:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051930.201072:INFO:CONSOLE(1)] "onerror with open _loc_iu", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051930.201848:INFO:CONSOLE(1)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051930.201921:INFO:CONSOLE(1)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051930.994107:INFO:CONSOLE(1)] "[Storage] rl_user_id should be string", source: https://onefootball.com/_next/static/chunks/8292.30858db710982d88.js (1)
-[0628/051931.277231:INFO:CONSOLE(1)] "onerror with open _loc_ids", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.429257:INFO:CONSOLE(1)] "onerror with open _loc_pa", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.430089:INFO:CONSOLE(1)] "onerror with open _loc_cst", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.430970:INFO:CONSOLE(1)] "onerror with open _loc_ct", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.431333:INFO:CONSOLE(1)] "onerror with open _loc_csu", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.431757:INFO:CONSOLE(1)] "onerror with open _loc_csi", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.432021:INFO:CONSOLE(1)] "onerror with open _loc_fl", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.434816:INFO:CONSOLE(1)] "onerror with open _loc_opt", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.475348:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.484079:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051931.491390:INFO:CONSOLE(1)] "onerror with open _loc_opt", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.497242:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.497601:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051931.545984:INFO:CONSOLE(1)] "onerror with open _loc_opt", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.547823:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.556085:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051931.674137:INFO:CONSOLE(1)] "onerror with open _loc_ids", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.682005:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051931.682408:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051935.288246:INFO:CONSOLE(0)] "The resource https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/127.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051935.288368:INFO:CONSOLE(0)] "The resource https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/52.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051939.999890:INFO:CONSOLE(1)] "onerror with open _loc_opt", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051940.025620:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051940.025832:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051940.397384:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/52.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051940.398106:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/52.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051940.398818:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/127.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051940.400056:INFO:CONSOLE(7)] "A preload for 'https://image-service.onefootball.com/transform?w=64&dpr=2&image=https://images.onefootball.com/icons/teams/164/127.png' is found, but is not used because image loading is disabled.", source: https://onefootball.com/es/partido/2372278 (7)
-[0628/051941.320492:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.322277:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.322966:INFO:CONSOLE(1)] "onerror with open _loc_iu", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.328008:INFO:CONSOLE(1)] "[Storage] rl_user_id should be string", source: https://onefootball.com/_next/static/chunks/8292.30858db710982d88.js (1)
-[0628/051941.366619:INFO:CONSOLE(1)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.367775:INFO:CONSOLE(1)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.372992:INFO:CONSOLE(1)] "onerror with open _loc_ids", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.428976:INFO:CONSOLE(1)] "onerror with open _loc_pa", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.431990:INFO:CONSOLE(1)] "onerror with open _loc_cst", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.434227:INFO:CONSOLE(1)] "onerror with open _loc_ct", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.435247:INFO:CONSOLE(1)] "onerror with open _loc_csu", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.435962:INFO:CONSOLE(1)] "onerror with open _loc_csi", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.436599:INFO:CONSOLE(1)] "onerror with open _loc_fl", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.438468:INFO:CONSOLE(1)] "onerror with open _loc_opt", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.441257:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.442872:INFO:CONSOLE(1)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.444467:INFO:CONSOLE(1)] "onerror with open _loc_opt", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.449383:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.449460:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051941.488254:INFO:CONSOLE(1)] "onerror with open _loc_opt", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.489292:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.489557:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
-[0628/051941.749107:INFO:CONSOLE(1)] "onerror with open _loc_ids", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.778777:INFO:CONSOLE(1)] "onerror with open [object Object]", source: https://onefootball.com/next-assets/scripts/localytics-dynamic-script.min.js (1)
-[0628/051941.779166:INFO:CONSOLE(0)] "Uncaught (in promise) #<Object>", source: https://onefootball.com/es/partido/2372278 (0)
+[0702/170312.471192:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/wasm
+[0702/170312.471612:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/wasm
+[0702/170312.471638:ERROR:simple_backend_impl.cc(738)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/wasm
+[0702/170312.472065:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/js
+[0702/170312.472224:ERROR:disk_cache.cc(205)] Unable to create cache
+[0702/170312.517504:ERROR:simple_backend_impl.cc(79)] Failed to create directory: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/js
+[0702/170312.517564:ERROR:simple_backend_impl.cc(738)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/ubuntu/futbol_scratch_-_prediction/ /home/ubuntu/user-data-dir/Default/Code Cache/js
+[0702/170312.519196:ERROR:disk_cache.cc(205)] Unable to create cache
+[0702/170312.526934:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[0702/170312.527874:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527910:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527921:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527930:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527940:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527950:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527959:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527969:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527979:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527988:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.527998:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528008:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528018:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528027:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528038:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528047:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528057:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528067:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528076:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528087:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528096:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528106:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528115:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528125:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528135:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528144:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528154:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528163:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528173:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528183:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528192:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528201:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528212:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528221:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528231:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528253:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528263:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528273:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528282:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528292:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528302:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528311:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528321:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528330:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528340:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528349:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528358:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528367:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528377:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528387:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528396:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528406:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528415:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528425:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528435:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528444:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528453:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528463:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528472:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528481:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528490:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528500:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528510:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528520:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528530:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528541:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528551:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528561:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528570:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528580:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528589:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528598:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528608:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528617:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528628:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528638:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528648:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528658:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528668:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528678:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528688:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528697:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528707:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528716:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528726:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528736:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528746:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528764:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528774:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528784:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528793:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528803:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528813:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528823:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528833:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528843:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528853:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528863:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528873:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528883:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528899:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528910:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528920:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528929:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528939:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528949:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528958:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528967:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528977:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528987:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.528997:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529006:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529016:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529026:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529050:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529061:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529070:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529080:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529090:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529099:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529108:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529118:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529129:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529139:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529149:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529159:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529170:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529179:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529189:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529199:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529209:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529219:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529228:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529238:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529248:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529258:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529269:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529279:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529289:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529305:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529315:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529324:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529333:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529342:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529352:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529362:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529370:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529380:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529389:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529399:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529408:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529418:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529427:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529437:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529447:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529457:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529466:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529475:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529485:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529494:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529503:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529512:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529523:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529532:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529542:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529552:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529562:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529571:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529581:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529590:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529600:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529609:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529619:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529628:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529638:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529647:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529657:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529667:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529677:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529688:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529698:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529709:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529719:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529729:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529739:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529749:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529759:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529769:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529779:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529789:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529799:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529815:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529826:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529836:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529846:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529856:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529866:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.529876:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.539405:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.539428:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540337:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540373:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540383:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540393:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540403:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540413:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540422:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540432:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540442:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540452:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540462:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540471:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540481:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540491:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540501:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540511:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540520:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540530:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540540:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540550:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540561:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540571:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540580:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540591:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540600:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540611:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540621:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540631:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540641:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540650:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540660:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540670:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540680:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540689:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540699:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540708:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540718:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540728:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540737:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540746:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540756:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540765:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540788:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540799:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540809:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540819:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540829:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540839:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540849:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540859:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540869:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540879:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540890:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540900:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540909:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540920:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540930:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540940:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540950:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540960:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540970:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540980:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.540990:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541000:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541010:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541020:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541030:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541057:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541067:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541075:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541086:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541095:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541104:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541113:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541122:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541131:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541139:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541148:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541156:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541165:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541174:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541182:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541192:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541200:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541208:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541218:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541227:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541236:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541245:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541253:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541262:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541271:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541280:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541289:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541310:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541319:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541329:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541339:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541348:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541357:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541510:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541526:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541536:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541544:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541553:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541561:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541570:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541579:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541588:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541597:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541606:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541616:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541625:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541634:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541643:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541651:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541661:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541670:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541678:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541687:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541696:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541705:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541714:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541723:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541733:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541742:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541750:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541759:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541768:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541778:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541787:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541796:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541805:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541814:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541823:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541833:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541842:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541851:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541861:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541870:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541879:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541905:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541914:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541923:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541932:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541941:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541965:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541974:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541983:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.541992:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542001:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542010:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542019:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542028:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542037:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542045:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542055:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542064:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542073:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542081:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542090:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542098:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542107:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542115:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542125:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542133:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542143:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542152:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542162:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542170:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542180:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542189:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542198:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542207:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542215:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542225:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542233:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542242:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542252:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542261:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542269:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542278:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542287:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542296:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542306:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542315:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542324:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542332:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542341:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542350:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542359:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542369:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542379:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542389:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542397:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542406:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542415:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542423:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542444:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.542453:WARNING:cache_util.cc(137)] Unable to delete cache folder.
+[0702/170312.543441:ERROR:disk_cache.cc(205)] Unable to create cache
+[0702/170312.543468:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2
+[0702/170312.543489:ERROR:disk_cache.cc(205)] Unable to create cache
+[0702/170312.543498:ERROR:gpu_disk_cache.cc(673)] Gpu Cache Creation failed: -2

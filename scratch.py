@@ -6,6 +6,7 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
     from one_function import matches
     from info_function import get_info
     import pandas as pd
+    import numpy as np
 
     last_date = ''
     
@@ -19,7 +20,7 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
 
         try:
 
-            match = pd.read_csv('/home/ubuntu/futbol_scratch_-_prediction/data/matches.csv', header=0)
+            match = pd.read_csv('/home/ubuntu/futbol_scratch_-_prediction/data/matches.csv', index_col=0)
 
             oldest = match['date'].min()
             oldest = datetime.strptime(oldest, '%Y-%m-%d')
@@ -32,36 +33,32 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
  
                 a = matches(previous_day(oldest))
                 for matchh in a:
-
+                    
                     if(matchh not in match['match'].values):
                         info = get_info(matchh)
-            
+                        
                         if(len(info[1]) != 0):
-                            
-                            match = match.append({'date': oldest, 'match': matchh, 'points': info[0], 'team1': info[1], 'team2': info[2]}, ignore_index=True)
+                                                    
+                            match.loc[len(match)] = [oldest] + [matchh] + [info[0]] + [info[1]] + [info[2]]
 
-                            #
                             names = info[1] + info[2]
                             from fifa_function import statistics
 
                             for name in names:
                                 
-                                df = pd.read_csv('/home/ubuntu/futbol_scratch_-_prediction/data/players.csv', header=0)
+                                df = pd.read_csv('/home/ubuntu/futbol_scratch_-_prediction/data/players.csv', index_col=0)
                                 if(not df['name'].str.contains(name).any()):
-
+                                    
                                     columns = ['name', 'Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle' ,'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
 
                                     values = statistics(name)
-
-                                    df = df.append(pd.Series([name] + values, index=columns), ignore_index=True)
-                                    df = df[columns]#
                                     
+                                    df.loc[len(df)] = [name] + values
+                    
                                     df.to_csv('/home/ubuntu/futbol_scratch_-_prediction/data/players.csv')
-                        #
-                            matchcolumns = ['date', 'match', 'points', 'team1', 'team2']
-                            match = match[matchcolumns]
+                    
                             match.to_csv('/home/ubuntu/futbol_scratch_-_prediction/data/matches.csv') 
-
+                            
             last_date = previous_day(oldest)
 
 
@@ -79,9 +76,11 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
                 
                 info = get_info(matchh)
                 if(len(info[1]) != 0):
-
+            
                     match = pd.DataFrame(columns=['date', 'match', 'points', 'team1', 'team2'])
-                    match = match.append({'date': datte, 'match': matchh, 'points': info[0], 'team1': info[1], 'team2': info[2]}, ignore_index=True)
+                    roww = pd.Series({'date': datte, 'match': matchh, 'points': info[0], 'team1': info[1], 'team2': info[2]})
+                    match = match.append(roww, ignore_index=True)
+                    
 
                     #
                     names = info[1] + info[2]
@@ -89,17 +88,15 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
 
                     for name in names:
                         
-                        df = pd.read_csv('/home/ubuntu/futbol_scratch_-_prediction/data/players.csv', header=0)
+                        df = pd.read_csv('/home/ubuntu/futbol_scratch_-_prediction/data/players.csv', index_col=0)
                         if(not df['name'].str.contains(name).any()):
 
                             columns = ['name', 'Ball_Control', 'Dribbling', 'Marking', 'Slide_Tackle' ,'Stand_Tackle', 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision', 'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength', 'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading', 'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties', 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking', 'GK_Reflexes' ,'Height', 'Weight', 'Age']
 
                             values = statistics(name)
-
-                            df = df.append(pd.Series([name] + values, index=columns), ignore_index=True)
-                            df = df[columns]#
-
-                            print('write players')
+                            
+                            df.loc[len(df)] = [name] + values
+                                         
                             df.to_csv('/home/ubuntu/futbol_scratch_-_prediction/data/players.csv')
 
                     matchcolumns = ['date', 'match', 'points', 'team1', 'team2']

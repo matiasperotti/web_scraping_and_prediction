@@ -44,7 +44,7 @@ def get_info(url):
     #spans = driver.find_elements_by_css_selector("span.MatchLineupFormation_playerNameText__39DAI")
     spans = driver.find_elements(By.CSS_SELECTOR, "span.MatchLineupFormation_playerNameText__39DAI")
     first_team = return_names()
-    print(first_team)
+    
     if(len(first_team) == 0):
         flag = 1
         
@@ -56,13 +56,14 @@ def get_info(url):
         #spans = driver.find_elements_by_xpath("//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
         spans = driver.find_elements(By.XPATH, "a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
         first_team = return_names()
-
+        
 
     time.sleep(7)
     try:
         #boton = driver.find_element_by_id('onetrust-accept-btn-handler')#cookies button
         boton = driver.find_element(By.ID, "onetrust-accept-btn-handler")
         boton.click()
+        
     except:
         pass
     time.sleep(3)
@@ -73,7 +74,7 @@ def get_info(url):
         p = driver.find_element(By.XPATH, "//p[contains(@class, 'MatchScore_scores__UWw03 title-2-bold')]")
         
         #spans = p.find_elements_by_tag_name("span")
-        spans = driver.find_elements(By.TAG_NAME, "p.span")
+        spans = p.find_elements(By.TAG_NAME, "span")
         
         points = []
         for span in spans:
@@ -85,7 +86,8 @@ def get_info(url):
 
         try:
             #boton = driver.find_element_by_xpath("//button[contains(@class, 'title-7-medium ToggleButton_button__d5K77')]")
-            boton = driver.find_element(By.XPATH, "//button[contains(@class, 'title-7-medium ToggleButton_button__dk77')]")
+            
+            boton = driver.find_element(By.XPATH, "//button[contains(@class, 'title-7-medium ToggleButton_button__d5K77')]")
             
             boton.click()
 
@@ -97,7 +99,7 @@ def get_info(url):
                 
             elif(flag == 1):
                 #spans = driver.find_elements_by_xpath("//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
-                spans = driver.find_elements(By.XPATH, "//a[contains(@class, 'tittle-7-medium MatchLineupFlat_playerName__igpy2')]")
+                spans = driver.find_elements(By.XPATH, "//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
                 second_team = return_names()
                 
 
@@ -109,7 +111,7 @@ def get_info(url):
 
 
     driver.quit()
-
+    
     return points, first_team, second_team
 
 
