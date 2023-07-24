@@ -24,24 +24,24 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
 
         try:
 
+            last = ''
+
             match = pd.read_csv('/home/ubuntu/futbol_scratch_-_prediction/data/matches.csv', index_col=0)
 
-            #oldest = match['date'].min()
             oldest = match['date'].max()# pongo oldest pero voy a estar usando fechas mas recientes
 
             oldest = datetime.strptime(oldest, '%Y-%m-%d')
             oldest = oldest.strftime('%Y-%m-%d')
 
-            yyy = (datetime.now() - timedelta(days=1))
+            yyy = (datetime.now() - timedelta(days=2))
             yyy = yyy.strftime('%Y-%m-%d')
 
             if(oldest < yyy):
                 oldest = next_day(oldest)
-                #oldest = previous_day(oldest)
                 # esto va a permitir buscar fechas mas recientes pero solo si el dia aun no ocurre
                 # en caso que no haya dias para buscar informacion el programa va a leer hasta que se cumpla la consigna
 
-            
+
             if(oldest not in match['date'].values):
                 a = matches(oldest)
                 
@@ -49,7 +49,7 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
                     
                     if(matchh not in match['match'].values):
                         info = get_info(matchh)
-                        
+                                 
                         if(len(info[1]) != 0):
                                                     
                             match.loc[len(match)] = [oldest] + [matchh] + [info[0]] + [info[1]] + [info[2]]
@@ -72,7 +72,7 @@ def scratch():          ## esta funcion recolecta solo links de matches en el ar
                     
                             match.to_csv('/home/ubuntu/futbol_scratch_-_prediction/data/matches.csv') 
                             
-    
+            last = oldest
 
 
         except pd.errors.EmptyDataError:

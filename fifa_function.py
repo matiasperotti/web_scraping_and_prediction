@@ -35,6 +35,7 @@ def statistics(name):
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-gpu')
 
+    #print('flag fifa')
     
     while True:
         

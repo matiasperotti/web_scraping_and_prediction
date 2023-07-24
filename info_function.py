@@ -40,9 +40,11 @@ def get_info(url):
 
         return names
 
+    #print('flag info')
 
     #spans = driver.find_elements_by_css_selector("span.MatchLineupFormation_playerNameText__39DAI")
-    spans = driver.find_elements(By.CSS_SELECTOR, "span.MatchLineupFormation_playerNameText__39DAI")
+    #spans = driver.find_elements(By.CSS_SELECTOR, "span.MatchLineupFormation_playerNameText__39DAI")
+    spans = driver.find_elements(By.CSS_SELECTOR, 'span.MatchLineupFormation_playerNameText__yXmYB')#
     first_team = return_names()
     
     if(len(first_team) == 0):
@@ -54,7 +56,8 @@ def get_info(url):
 
     if(flag == 1):
         #spans = driver.find_elements_by_xpath("//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
-        spans = driver.find_elements(By.XPATH, "a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
+        #spans = driver.find_elements(By.XPATH, "a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
+        spans = driver.find_elements(By.XPATH, "a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__s8rVU')]")
         first_team = return_names()
         
 
@@ -62,6 +65,7 @@ def get_info(url):
     try:
         #boton = driver.find_element_by_id('onetrust-accept-btn-handler')#cookies button
         boton = driver.find_element(By.ID, "onetrust-accept-btn-handler")
+        
         boton.click()
         
     except:
@@ -71,8 +75,9 @@ def get_info(url):
     
     try:
         #p = driver.find_element_by_xpath("//p[contains(@class, 'MatchScore_scores__UWw03 title-2-bold')]")
-        p = driver.find_element(By.XPATH, "//p[contains(@class, 'MatchScore_scores__UWw03 title-2-bold')]")
-        
+        #p = driver.find_element(By.XPATH, "//p[contains(@class, 'MatchScore_scores__UWw03 title-2-bold')]")
+        p = driver.find_element(By.XPATH, "//p[contains(@class, 'MatchScore_scores__Hnn5f title-2-bold')]")#
+
         #spans = p.find_elements_by_tag_name("span")
         spans = p.find_elements(By.TAG_NAME, "span")
         
@@ -86,20 +91,22 @@ def get_info(url):
 
         try:
             #boton = driver.find_element_by_xpath("//button[contains(@class, 'title-7-medium ToggleButton_button__d5K77')]")
-            
-            boton = driver.find_element(By.XPATH, "//button[contains(@class, 'title-7-medium ToggleButton_button__d5K77')]")
+            #boton = driver.find_element(By.XPATH, "//button[contains(@class, 'title-7-medium ToggleButton_button__d5K77')]")
+            boton = driver.find_element(By.XPATH, "//button[contains(@class, 'title-7-medium ToggleButton_button__dUMjc')]")
             
             boton.click()
 
 
             if(flag == 0):
                 #spans = driver.find_elements_by_css_selector("span.MatchLineupFormation_playerNameText__39DAI")
-                spans = driver.find_elements(By.CSS_SELECTOR, "span.MatchLineupFormation_playerNameText__39DAI")
+                #spans = driver.find_elements(By.CSS_SELECTOR, "span.MatchLineupFormation_playerNameText__39DAI")
+                spans = driver.find_elements(By.CSS_SELECTOR, "span.MatchLineupFormation_playerNameText__yXmYB")#
                 second_team = return_names()
                 
             elif(flag == 1):
                 #spans = driver.find_elements_by_xpath("//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
-                spans = driver.find_elements(By.XPATH, "//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
+                #spans = driver.find_elements(By.XPATH, "//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__igpy2')]")
+                spans = driver.find_elements(By.XPATH, "//a[contains(@class, 'title-7-medium MatchLineupFlat_playerName__s8rVU')]")
                 second_team = return_names()
                 
 
@@ -109,7 +116,9 @@ def get_info(url):
     except:
         points = first_team = second_team = []
 
-
+    #print('points', points)
+    #print('first_team', first_team)
+    #print('second_team', second_team)
     driver.quit()
     
     return points, first_team, second_team

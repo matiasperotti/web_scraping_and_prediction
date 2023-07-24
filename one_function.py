@@ -39,7 +39,8 @@ def matches(date):
 
         driver.get('https://onefootball.com/es/partidos?date='+date) # format 2-03-27
 
-    clase = 'MatchCard_matchCard__JSuaw'
+    #clase = 'MatchCard_matchCard__JSuaw'
+    clase = 'MatchCard_matchCard__iOv4G'
 
     #elementos = driver.find_elements_by_css_selector('.' + clase)
     elementos = driver.find_elements(By.CSS_SELECTOR, '.' + clase)
@@ -50,5 +51,9 @@ def matches(date):
         hrefs.append(href)
 
     driver.quit()
+
+    #print('date', date)
+    #print('hrefs', hrefs)
+    #print('elementos', elementos)
 
     return hrefs
