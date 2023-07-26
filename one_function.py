@@ -33,17 +33,18 @@ def matches(date):
 
 
     if(date == ''):
-        driver.get('https://onefootball.com/es/partidos/yesterday')
+        driver.get('https://onefootball.com/es/partidos')
 
     else:
 
         driver.get('https://onefootball.com/es/partidos?date='+date) # format 2-03-27
 
     #clase = 'MatchCard_matchCard__JSuaw'
-    clase = 'MatchCard_matchCard__iOv4G'
+    #clase = 'MatchCard_matchCard__iOv4G'
 
     #elementos = driver.find_elements_by_css_selector('.' + clase)
-    elementos = driver.find_elements(By.CSS_SELECTOR, '.' + clase)
+    #elementos = driver.find_elements(By.CSS_SELECTOR, '.' + clase)
+    elementos = driver.find_elements(By.CSS_SELECTOR, 'a.MatchCard_matchCard__iOv4G')
 
     hrefs = []
     for elemento in elementos:
