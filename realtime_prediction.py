@@ -6,10 +6,38 @@
 from datetime import date, datetime, timedelta
 from one_function import matches
 from info_function_realtime import get_info
+from fifa_function import statistics
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 import tensorflow as tf
+import autokeras as ak
+from tensorflow.keras import backend as K
+import keras
+import ast
+
+
+def custom_f1(y_true, y_pred):
+    def recall_m(y_true, y_pred):
+        TP = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        Positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+
+        recall = TP / (Positives+K.epsilon())
+        return recall
+
+
+    def precision_m(y_true, y_pred):
+        TP = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        Pred_Positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+
+        precision = TP / (Pred_Positives+K.epsilon())
+        return precision
+
+    precision, recall = precision_m(y_true, y_pred), recall_m(y_true, y_pred)
+
+    return 2*((precision*recall)/(precision+recall+K.epsilon()))
+
+
 
 def gmatches(date):
 
@@ -24,14 +52,20 @@ def gmatches(date):
 
             info = get_info(matchh)
 
-            #print('info', info)
 
             if((len(info[0]) != 0) & (len(info[1]) != 0)):
 
-                match.loc[len(match)] = [date] + [matchh] + [info[0]] + [info[1]] + [0]
+                import json
+                #info_0 = ', '.join(info[0])
+                #info_1 = ', '.join(info[1])
+                #info_0 = json.dumps(info[0])
+                #info_1 = json.dumps(info[0])
+
+                #match.loc[len(match)] = [date] + [matchh] + [0] + [info[0]] + [info[1]] # original
+                match.loc[len(match)] = [date, matchh, 'a', info[0], info[1]]
+
 
                 names = info[0] + info[1]
-                from fifa_function import statistics
 
                 for name in names:
                     
@@ -49,7 +83,6 @@ def gmatches(date):
                         df.to_csv('./data/players.csv')
                         match.to_csv('./data/predictions.csv')
         
-    print(match.head())
     return match
 
 def predictions():
@@ -58,15 +91,22 @@ def predictions():
         
 
         #tomorrow = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
-        tomorrow = ''
+        #tomorrow = ''
+        today = datetime.now().strftime('%Y-%m-%d')
 
-        matches = gmatches(tomorrow)
+        matches = gmatches(today)
+        #matches = pd.read_csv('./data/predictions.csv', index_col=0) ## estoy usando este solo como prueba, 
+                                                                    # deberia usarse el de gmatches para recolectar los datos
         players = pd.read_csv('./data/players.csv')
 
         matches = matches.replace('None', np.nan)
         players = players.replace('None', np.nan)
 
-        matches = matches.iloc[:, -3:]
+
+        #matches['team1'] = matches['team1'].apply(ast.literal_eval)
+        #matches['team2'] = matches['team2'].apply(ast.literal_eval)
+
+
 
         team1nones = 0
         team2nones = 0
@@ -79,15 +119,13 @@ def predictions():
             '1Shot_Power', '1Finishing', '1Long_Shots', '1Curve', '1FK_Acc', '1Penalties',
             '1Volleys', '1GK_Positioning', '1GK_Diving', '1GK_Handling', '1GK_Kicking',
             '1GK_Reflexes', '1Height', '1Weight', '1Age',
-            '1Quantity',
             '2Ball_Control', '2Dribbling', '2Marking', '2Slide_Tackle', '2Stand_Tackle',
             '2Aggression', '2Reactions', '2Att_Position', '2Interceptions', '2Vision',
             '2Short_Pass', '2Long_Pass', '2Acceleration', '2Stamina', '2Strength',
             '2Balance', '2Sprint_Speed', '2Agility', '2Jumping', '2Heading',
             '2Shot_Power', '2Finishing', '2Long_Shots', '2Curve', '2FK_Acc', '2Penalties',
             '2Volleys', '2GK_Positioning', '2GK_Diving', '2GK_Handling', '2GK_Kicking',
-            '2GK_Reflexes', '2Height', '2Weight', '2Age',
-            '2Quantity'
+            '2GK_Reflexes', '2Height', '2Weight', '2Age'
         ]
 
         df = pd.DataFrame(columns = all_columns)
@@ -107,10 +145,12 @@ def predictions():
             columns = players.columns[-35:]
             column_values = {column: [] for column in columns}
 
+            print(matches['team1'])
+            
             for player in eval(matches['team1'].iloc[i]):
 
                 for column in columns:
-                        
+                    
                     stats = players[players['name'] == player]
 
                     aaa = stats[column]
@@ -120,17 +160,20 @@ def predictions():
                         value = pd.to_numeric(value, errors='coerce')
                         if not pd.isnull(value):
                             column_values[column].append(value)
+            
+            ###
+            ###
             
             aaa1 = []
             for column in columns:
                 aa = meanlist(column_values[column])
                 aaa1.append(aa)
-            quantity1 = len(column_values['Age'])
 
             ######################################f
 
+            print(matches['team2'])
+            
             for player in eval(matches['team2'].iloc[i]):
-
                 for column in columns:
                         
                     stats = players[players['name'] == player]
@@ -143,30 +186,22 @@ def predictions():
                         if not pd.isnull(value):
                             column_values[column].append(value)
             
+            ###
+
+            ###
+
+
             aaa2 = []
             for column in columns:
                 aa = meanlist(column_values[column])
                 aaa2.append(aa)
-            quantity2 = len(column_values['Age'])
-
-
+            
             v = []
             v = v + aaa1
-            v.append(quantity1)
             v = v + aaa2
-            v.append(quantity2)
 
             df = df.append(pd.Series(v, index=all_columns), ignore_index=True)
-
-            #print(df.head())
-
             
-
-
-            ### pegar la columna de 'match' que seria matchh
-
-            #####3################################
-
 
             df2 = pd.DataFrame()
 
@@ -205,11 +240,6 @@ def predictions():
             df2['Height'] = df['1Height'] - df['2Height']
             df2['Weight'] = df['1Weight'] - df['2Weight']
             df2['Age'] = df['1Age'] - df['2Age']
-            df2['1Quantity'] = df['1Quantity']
-            df2['2Quantity'] = df['2Quantity']
-
-
-
 
             columns = ['ball_control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle',
                 'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision',
@@ -219,48 +249,51 @@ def predictions():
                 'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking',
                 'GK_Reflexes', 'Height', 'Weight', 'Age']
 
-
-
             scaler = StandardScaler()
 
             df2[columns] = scaler.fit_transform(df2[columns])
 
             df2 = round(df2, 1)
 
-            #matches['prediction'].iloc[i] = 2
-            matches.loc[i, 'prediction'] = 2
 
-            matches.head()
+            keras.utils.get_custom_objects()['custom_f1'] = custom_f1
+            model = tf.keras.models.load_model('./autokeras_model')
 
-        """
-        datatable = df2['ball_control', 'Dribbling', 'Marking', 'Slide_Tackle', 'Stand_Tackle',
-            'Aggression', 'Reactions', 'Att_Position', 'Interceptions', 'Vision',
-            'Short_Pass', 'Long_Pass', 'Acceleration', 'Stamina', 'Strength',
-            'Balance', 'Sprint_Speed', 'Agility', 'Jumping', 'Heading',
-            'Shot_Power', 'Finishing', 'Long_Shots', 'Curve', 'FK_Acc', 'Penalties',
-            'Volleys', 'GK_Positioning', 'GK_Diving', 'GK_Handling', 'GK_Kicking',
-            'GK_Reflexes', 'Height', 'Weight', 'Age', '1Quantity', '2Quantity']
-        """
+            #print(df.loc[i])
+            #print(df2.loc[i])
+
+            #matches.iloc[i, -1] = df2.iloc[i]  
+
+            if matches.iloc[i,2] == 'a':
+
+                row_i = df2.iloc[i]
+                input_data = np.expand_dims(row_i.to_numpy(), axis=0)
+                
+                prediction = np.array(model.predict(input_data))
+                #prediction = np.round(prediction, 2)
+                print('prediction ', prediction)
+                #matches.iloc[i, 2] = prediction
+
+                #prediction = np.array(model.predict(input_data))
+
+                prediction = np.argmax(prediction[0])
+                
+                #predicted_index = np.argmax(prediction)
+                #predicted_probability = prediction[predicted_index]
+                labels = ['empate', 'primero', 'segundo']# igualmente hay que revisarlo
+                predicted_category = labels[prediction]
+
+                matches.iloc[i, 2] = predicted_category
+
+
+            matches.to_csv('./data/predictions.csv')
+            #match.to_csv('/home/ubuntu/futbol_scratch_-_prediction/data/predictions.csv') 
 
 
 
-        #model = tf.keras.models.load_model('./autokeras_model')
-
-        # hay que hacer la prediccion
-
-        df2.head()
-        #datatable.head()
-
-        #match.to_csv('/home/ubuntu/futbol_scratch_-_prediction/data/predictions.csv') 
-        #match.to_csv('./data/predictions.csv') 
-
-        # hay que cambiar nombres de muchas variables que en los distintos scrips tenian el mismo nombre
-
-
-### como entra la info del partido?
 
 ### no tomando todos los objetos de partidos, por algun motivo solo esta agarrando los primeros 4 (del dia en que hago esto)
-
+#### viendo si se arreglo... 
 
 predictions()
 

@@ -1,3 +1,8 @@
-,date,match,team1,team2,prediction
-,0,0,[],[],0
-1.0,,https://onefootball.com/es/partido/2266740,"['Tanaka', 'Naomoto', 'Fujino', 'Hayashi', 'Sugita', 'Hasegawa', 'Shimizu', 'Minami', 'Kumagai', 'Miyake', 'Yamashita']","['Chinchilla', 'Salas', 'Herrera', 'Elizondo', 'Alvarado', 'Granados', 'Coto', 'Guillén', 'Benavides', 'Villalobos', 'Solera']",0
+,date,match,prediction,team1,team2
+,0,0,1,[],[]
+,0,https://onefootball.com/es/partido/2266740,primero,"['Tanaka', 'Naomoto', 'Fujino', 'Hayashi', 'Sugita', 'Hasegawa', 'Shimizu', 'Minami', 'Kumagai', 'Miyake', 'Yamashita']","['Chinchilla', 'Salas', 'Herrera', 'Elizondo', 'Alvarado', 'Granados', 'Coto', 'Guillén', 'Benavides', 'Villalobos', 'Solera']"
+2.0,2023-07-28,https://onefootball.com/es/partido/2266744,primero,"['James', 'Russo', 'Kelly', 'Toone', 'Walsh', 'Stanway', 'Daly', 'Greenwood', 'Bright', 'Bronze', 'Earps']","['Harder', 'Madsen', 'Kühl', 'Thomsen', 'Holmgaard', 'Hasbo', 'Veje', 'Sorensen', 'Pedersen', 'Sevecke', 'Christensen']"
+3.0,2023-07-28,https://onefootball.com/es/partido/2266745,primero,"['Lou', 'Zhang', 'Zhang', 'Wu', 'Yang', 'Yao', 'Chen', 'Wei', 'Wang', 'Li', 'Zhu']","['Borgella', 'Mondésir', 'Jeudy', 'Louis', 'Pierre-Louis', 'Moryl', 'Mathurin', 'Louis', 'Joseph', 'Petit-Frère', 'Théus']"
+4.0,2023-07-29,https://onefootball.com/es/partido/2266749,empate,"['Blackstenius', 'Rolfo', 'Asllani', 'Rytting Kaneryd', 'Rubensson', 'Angeldahl', 'Andersson', 'Eriksson', 'Ilestedt', 'Bjorn', 'Musovic']","['Beccari', 'Bonansea', 'Dragoni', 'Cantore', 'Caruso', 'Giugliano', 'Boattin', 'Salvai', 'Linari', 'Di Guglielmo', 'Durante']"
+5.0,2023-07-29,https://onefootball.com/es/partido/2266747,primero,"['Diani', 'Le Sommer', 'Bacha', 'Toletti', 'Geyoro', 'Dali', 'Karchaoui', 'Renard', 'Lakrar', 'Perisset', 'Peyraud-Magnin']","['Debinha', 'Geyse', 'Adriana', 'Luana', 'Kerolin', 'Ary Borges', 'Tamires', 'Rafaelle', 'Lauren', 'Antônia', 'Leticia']"
+6.0,2023-07-29,https://onefootball.com/es/partido/2266748,primero,"['Cedeño', 'Tanner', 'Cox', 'Cedeño', 'González', 'Salazar', 'Baltrip-Reyes', 'Pinzón', 'Natis', 'Castillo', 'Bailey']","['McCoy', 'Brown', 'Spence', 'Primus', 'Carter', 'Sampson', 'Blackwood', 'Swaby', 'Swaby', 'Cameron', 'Spencer']"
