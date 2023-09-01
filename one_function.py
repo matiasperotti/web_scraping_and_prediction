@@ -5,11 +5,11 @@ def matches(date):
     from selenium.webdriver.chrome.options import Options
     from selenium import webdriver
     from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
     import selenium
 
     adblock = './Adblock-Plusfree-ad-blocker.crx'
-
-
 
     #options = Options()
     
@@ -42,10 +42,20 @@ def matches(date):
     #clase = 'MatchCard_matchCard__JSuaw'
     #clase = 'MatchCard_matchCard__iOv4G'
 
+    import time
+    time.sleep(10)
+
+
     #elementos = driver.find_elements_by_css_selector('.' + clase)
     #elementos = driver.find_elements(By.CSS_SELECTOR, '.' + clase)
-    elementos = driver.find_elements(By.CSS_SELECTOR, 'a.MatchCard_matchCard__iOv4G')
+    #elementos = driver.find_elements(By.CSS_SELECTOR, 'a.MatchCard_matchCard__iOv4G')  ##
+    #elementos = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'a.MatchCard_matchCard__iOv4G')))
 
+    xpath = f"//a[contains(@href, 'partido/')]"
+    links = driver.find_elements("xpath", xpath)
+    lista_links = [link.get_attribute("href") for link in links]
+
+    """
     hrefs = []
     for elemento in elementos:
         href = elemento.get_attribute('href')
@@ -58,3 +68,6 @@ def matches(date):
     #print('elementos', elementos)
 
     return hrefs
+    """
+
+    return lista_links

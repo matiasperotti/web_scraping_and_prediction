@@ -4308,3 +4308,323 @@
 4306,Stewart,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 4307,Jarvis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 4308,Mailer,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4309,Giacinti,71,73,30,23,18,40,64,74,17,53,66,64,71,63,59,67,74,57,65,73,68,77,62,59,54,65,61,9,13,12,11,15,170,59,25
+4310,Beccari,19,11,None,12,12,22,59,6,10,25,20,28,41,22,55,49,37,41,60,12,40,8,7,10,11,14,7,55,59,54,53,57,188,81,24
+4311,Dragoni,52,45,37,None,None,56,61,None,None,None,41,54,68,58,65,None,63,None,None,48,46,41,43,None,32,None,None,23,7,None,None,None,184,76,19
+4312,Bonansea,80,80,28,28,19,47,77,81,13,70,72,69,80,63,62,68,80,60,62,72,71,80,70,63,67,71,69,10,16,15,14,11,174,60,28
+4313,Caruso,65,69,25,20,21,60,65,65,36,71,63,57,69,72,60,70,68,73,61,64,72,68,65,59,65,71,60,6,7,10,7,11,175,68,34
+4314,Naomoto,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4315,Misa,12,11,8,22,23,18,75,6,13,27,33,24,29,16,36,44,16,56,56,12,54,9,9,11,12,10,6,75,77,74,72,77,173,66,23
+4316,Mapepa,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4317,Lungu,73,75,42,46,53,61,60,69,39,69,69,60,82,80,61,87,88,82,81,55,63,65,58,61,60,59,47,15,9,16,7,10,178,68,27
+4318,Musesa,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4319,Sakala,69,73,None,28,29,54,69,70,35,62,64,51,93,81,61,73,89,86,88,64,74,71,69,58,55,60,56,11,12,7,11,13,178,72,26
+4320,Viens,69,73,None,15,21,32,74,79,18,58,76,51,83,50,75,78,79,76,68,49,78,78,75,50,51,72,72,11,6,9,13,10,173,64,26
+4321,Huitema,78,79,None,18,15,37,75,80,23,66,65,43,77,56,68,49,78,77,72,65,71,79,69,64,59,70,68,7,6,12,11,10,181,70,22
+4322,Grosso,None,69,75,79,77,40,72,68,74,68,76,69,None,52,73,38,None,None,47,70,76,60,74,78,79,80,72,13,9,6,8,14,190,82,34
+4323,Sheridan,17,14,None,13,14,26,80,7,13,32,29,26,25,38,70,46,30,46,53,17,56,10,17,13,15,25,11,79,85,82,75,84,176,72,28
+4324,O'Gorman,47,47,28,14,18,44,42,48,19,44,46,44,70,46,39,64,74,61,38,47,49,48,39,31,31,50,35,10,14,15,12,5,174,73,17
+4325,Russo,82,88,None,35,37,49,78,85,34,69,76,51,83,64,72,73,83,81,81,85,84,82,75,64,56,60,70,14,9,12,10,13,172,64,24
+4326,Toone,82,92,None,56,57,38,82,86,45,83,83,70,85,84,65,84,81,67,77,69,83,80,77,70,56,59,75,9,7,11,8,8,163,57,23
+4327,Walsh,80,73,None,79,84,74,79,51,73,79,91,88,66,85,67,71,66,64,70,66,45,38,33,53,48,55,40,8,16,9,10,8,168,60,26
+4328,Daly,90,84,None,65,68,54,87,90,52,83,77,70,80,81,77,67,78,72,76,78,84,89,75,77,54,72,75,9,12,9,14,17,167,62,31
+4329,Greenwood,84,75,None,79,84,89,76,47,84,59,90,89,71,90,75,70,73,65,89,83,67,64,54,70,78,88,43,15,12,10,12,14,168,62,29
+4330,Bronze,85,79,None,89,91,82,89,73,85,73,85,80,89,90,Traits,82,89,86,92,82,85,73,86,88,81,62,66,8,10,14,16,15,171,65,31
+4331,Earps,20,12,None,14,15,31,81,10,14,68,31,29,35,38,63,40,27,29,62,7,62,10,13,14,12,26,12,82,83,81,82,82,173,68,30
+4332,Madsen,72,71,None,64,66,65,68,65,64,70,72,72,64,79,75,75,62,65,65,65,64,60,60,65,63,49,60,14,11,10,5,13,189,82,25
+4333,Veje,69,62,None,70,73,64,67,41,73,61,73,71,67,69,69,51,67,59,59,67,40,38,45,69,65,59,34,9,12,7,10,13,174,61,32
+4334,Borgella,72,68,None,31,34,35,75,80,27,63,72,54,78,73,68,65,84,68,73,74,72,77,74,61,58,73,72,8,14,8,6,7,172,58,30
+4335,Mondésir,77,74,None,33,37,51,69,74,28,69,73,59,88,68,67,78,84,80,77,67,63,72,69,59,57,64,61,15,10,14,14,11,163,57,24
+4336,Jeudy,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4337,Pierre-Louis,63,62,62,63,67,73,76,48,72,51,65,64,74,66,76,71,65,61,60,52,57,50,49,30,32,38,57,9,7,12,13,13,170,58,24
+4338,Moryl,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4339,Mathurin,20,33,32,None,None,40,None,None,None,None,None,None,30,30,55,30,None,None,None,33,25,None,None,None,None,None,None,55,None,None,None,None,191,86,26
+4340,Joseph,54,44,82,80,86,77,72,31,71,41,57,64,59,62,86,48,54,52,77,83,64,30,56,33,49,69,39,12,6,7,7,6,175,68,29
+4341,Petit-Frère,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4342,Théus,89,86,None,31,45,79,79,76,50,78,74,62,89,79,62,85,78,93,57,45,75,76,79,85,74,66,67,8,9,10,14,13,172,63,23
+4343,Blackstenius,80,85,None,28,32,52,80,86,36,67,66,43,83,75,84,67,89,68,60,57,86,86,78,64,64,65,80,15,9,16,13,11,174,65,27
+4344,Rolfo,89,87,None,65,66,50,86,84,65,86,88,75,83,78,84,73,83,77,58,79,85,87,84,74,63,77,81,14,7,11,16,9,178,65,29
+4345,Asllani,87,89,None,30,28,44,80,82,45,84,84,78,80,71,50,89,79,88,67,62,77,80,78,81,78,88,85,11,12,12,7,12,166,58,33
+4346,Rytting Kaneryd,79,79,None,65,67,58,73,58,68,73,78,75,78,76,60,69,84,72,64,60,67,72,67,54,60,64,61,7,12,9,15,9,163,58,26
+4347,Rubensson,78,76,None,79,78,77,74,73,72,73,76,75,83,79,56,89,87,87,81,64,47,63,53,63,57,86,50,8,15,12,10,9,166,60,30
+4348,Angeldahl,75,74,None,67,71,58,74,76,63,72,78,78,75,75,67,66,75,59,67,53,58,68,76,68,69,58,52,14,10,8,11,5,170,63,26
+4349,Ilestedt,74,60,None,86,89,83,79,26,85,46,82,70,64,72,78,43,77,37,90,85,51,41,36,51,52,58,35,7,15,9,9,14,178,65,30
+4350,Bjorn,70,63,None,79,78,78,74,55,79,57,78,79,69,77,77,75,69,66,87,74,40,35,48,65,62,43,35,8,7,14,9,12,174,67,26
+4351,Musovic,30,14,None,16,15,22,68,7,8,48,28,30,28,22,37,47,24,37,71,25,59,9,10,13,13,24,15,76,80,82,78,74,180,73,27
+4352,Cantore,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4353,Giugliano,81,79,74,74,75,68,76,71,74,77,80,78,88,86,62,90,84,94,56,47,73,65,74,76,70,66,68,10,11,12,11,11,154,47,22
+4354,Boattin,71,50,70,73,71,69,67,30,69,45,70,62,76,65,70,75,77,62,79,69,63,28,50,30,32,55,33,16,11,10,17,12,160,53,22
+4355,Salvai,73,71,75,75,75,73,76,54,74,52,70,66,73,79,86,70,81,74,60,74,58,43,52,45,43,52,50,9,10,17,9,17,179,68,25
+4356,Linari,68,60,79,80,80,76,76,33,73,44,73,71,69,67,87,70,67,51,75,77,65,28,44,30,35,56,38,8,12,9,7,9,173,65,25
+4357,Di Guglielmo,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4358,Durante,25,15,5,14,10,28,47,4,9,34,30,25,28,40,34,46,17,40,63,13,30,9,8,12,10,14,8,75,75,73,72,79,181,63,22
+4359,Perisset,80,75,None,80,85,72,76,54,81,63,85,79,82,75,69,85,75,78,70,55,61,44,48,67,41,61,41,17,8,16,15,16,159,55,28
+4360,Debinha,88,91,None,15,28,62,86,87,30,85,81,66,88,87,64,87,86,88,74,71,78,84,83,86,84,85,85,15,11,14,12,13,168,65,31
+4361,Geyse,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4362,Adriana,80,80,None,23,25,40,76,80,28,73,76,60,79,70,69,80,82,79,70,68,78,75,77,51,65,59,75,15,8,11,17,12,161,54,30
+4363,Luana,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4364,Kerolin,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4365,Ary Borges,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4366,Tamires,76,77,74,77,76,70,78,61,78,61,74,63,78,80,67,68,80,77,71,70,68,46,45,70,41,53,54,10,7,13,14,14,161,56,26
+4367,Rafaelle,76,66,None,82,82,81,74,55,78,48,80,78,57,76,80,54,68,73,82,81,48,40,34,60,30,57,27,12,16,16,8,7,175,64,32
+4368,Lauren,85,92,None,50,58,59,88,83,71,84,85,76,92,88,60,90,92,91,77,69,83,85,71,86,81,68,69,12,7,6,11,8,164,59,22
+4369,Antônia,62,67,20,41,44,67,77,72,48,76,74,74,71,88,74,75,72,81,79,34,61,59,67,65,54,51,50,14,15,14,10,7,167,65,26
+4370,Leticia,79,83,None,81,78,75,79,72,78,48,78,72,84,88,68,75,78,77,63,59,63,42,58,83,40,38,70,8,14,13,15,14,170,66,27
+4371,McCoy,60,59,15,16,12,29,59,63,12,62,62,58,68,63,58,71,70,65,64,69,62,69,61,55,59,75,56,13,14,12,8,15,168,60,23
+4372,Primus,51,37,67,None,None,78,58,None,None,None,45,41,59,57,80,None,62,None,None,80,48,21,23,None,25,None,None,21,9,None,None,None,178,78,35
+4373,Carter,69,58,None,78,80,74,74,49,89,50,72,69,55,69,74,82,55,53,68,68,50,49,48,51,49,56,47,6,10,7,11,9,165,70,25
+4374,Sampson,60,15,57,67,64,60,56,18,61,30,63,32,59,68,60,72,60,61,71,65,44,18,17,27,32,38,15,14,12,7,6,13,168,62,23
+4375,Blackwood,73,70,70,71,70,32,72,74,68,72,73,62,76,75,64,76,74,69,70,75,73,71,64,39,43,50,45,12,13,12,7,7,165,54,22
+4376,Swaby,73,59,None,71,80,73,69,39,73,53,73,67,72,69,81,65,78,59,80,70,57,35,31,54,43,45,33,8,6,8,15,10,180,70,24
+4377,Vujnovic,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4378,Ilecic,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4379,Ndockyt,61,62,42,37,34,58,69,74,41,62,72,68,65,64,52,70,62,55,56,46,48,59,57,37,34,38,34,11,14,5,9,9,178,63,22
+4380,Mitrovic,9,8,None,20,22,20,76,9,17,45,40,40,39,45,79,37,35,32,50,20,59,20,17,20,18,58,20,80,77,79,78,80,194,91,31
+4381,Prsir,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4382,Soldo,None,None,88,None,None,None,None,None,None,None,None,None,None,None,88,74,None,None,None,None,None,None,74,None,None,None,None,None,None,None,None,None,189,85,37
+4383,Stiglec,63,58,65,62,64,74,62,50,64,54,63,55,65,73,80,61,64,60,66,63,67,25,58,52,19,40,33,8,12,7,10,10,189,80,31
+4384,Krizmanic,70,65,48,49,51,60,47,41,47,63,62,58,70,64,41,76,66,78,57,41,57,40,58,56,61,54,60,14,13,7,7,9,172,70,20
+4385,Raspopovic,58,55,52,60,63,65,63,52,58,51,62,57,71,65,63,69,68,67,57,58,54,56,55,47,50,52,48,12,10,12,5,14,183,74,27
+4386,Banić,50,33,None,60,63,58,63,47,55,46,60,54,63,70,70,63,71,65,59,43,48,31,34,38,33,35,37,8,14,9,11,5,181,76,27
+4387,Soticek,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4388,Gorican,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4389,Stojkovic,34,8,None,23,22,45,73,14,30,47,35,46,55,45,80,34,53,47,73,10,51,13,20,12,12,37,20,80,70,68,68,74,193,93,39
+4390,Kanizaj,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4391,Bubanja,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4392,Milicevic,72,68,31,36,32,39,60,69,45,73,74,75,62,50,37,78,48,70,61,41,73,67,73,78,77,66,72,8,11,10,15,7,172,63,34
+4393,Kalaica,64,50,68,65,74,68,71,21,65,32,54,36,53,63,87,40,46,34,65,70,68,21,46,32,23,67,43,11,15,6,7,12,195,89,20
+4394,Mersinaj,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4395,Vranjkovic,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4396,Cavlina,21,9,12,13,12,35,64,12,23,24,22,20,47,53,72,43,46,50,62,13,21,10,11,12,9,24,9,61,66,65,60,64,190,89,34
+4397,Ngongo Iversen,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4398,Vestergård,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4399,Jespersen,55,60,51,55,50,41,67,40,40,66,65,64,67,54,48,71,66,64,50,50,46,41,51,61,37,41,38,10,13,11,13,10,184,71,26
+4400,Wilkins,68,64,77,78,80,75,77,49,70,38,69,67,69,83,71,77,77,64,61,65,55,29,52,30,29,55,25,6,10,10,9,13,165,66,35
+4401,Kiilerich Rask,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4402,Tjørnelund,58,55,57,63,63,64,56,48,57,55,57,49,77,60,68,56,73,80,61,31,35,36,42,53,40,19,40,8,12,10,11,14,183,78,28
+4403,Trier Jakobsen,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4404,Cornelius Petersen,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4405,Schousboe,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4406,Pingel,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4407,Kücükylidiz,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4408,Due Grandt,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4409,Bøje-Larsen,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4410,Kawiecky Møller,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4411,Arndal-Lauritzen,40,48,45,47,51,51,54,48,49,35,44,38,62,63,66,56,53,57,63,43,27,21,29,34,33,37,28,14,10,10,10,12,189,81,21
+4412,Friis Sharif,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4413,Azizi,78,67,63,None,None,66,None,None,None,None,None,None,59,53,51,56,None,None,None,64,59,None,69,None,None,None,None,20,None,None,None,None,169,67,34
+4414,Iredale,57,58,None,60,63,78,61,59,59,49,55,46,74,71,72,42,72,62,83,59,53,33,50,52,57,50,31,11,10,6,10,11,184,70,27
+4415,Froese,66,65,None,58,63,64,64,62,56,63,68,61,81,74,63,80,79,80,64,50,65,56,55,62,45,64,44,12,15,10,8,13,172,71,27
+4416,Hyun-Ju,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4417,Rieble,57,58,None,59,61,64,60,40,57,51,55,59,70,67,73,63,71,66,81,62,60,33,46,48,42,37,37,6,7,9,7,12,183,80,27
+4418,Heußer,62,59,None,56,56,53,58,63,54,64,66,64,63,73,73,86,61,84,52,43,52,47,43,52,50,40,39,5,14,10,8,13,170,73,25
+4419,Fechner,65,52,None,63,66,72,58,43,62,58,65,64,66,74,77,58,65,64,71,62,51,38,42,34,40,41,27,6,14,11,7,7,188,78,25
+4420,Vukotic,77,76,36,24,19,76,76,77,29,71,65,44,76,72,81,61,80,67,90,82,80,75,66,66,54,74,76,10,8,11,16,14,184,80,31
+4421,Mathisen,62,59,None,60,64,74,62,52,65,58,64,62,59,78,81,65,54,65,82,61,62,45,48,47,42,53,42,15,12,13,11,8,183,79,27
+4422,Mockenhaupt,50,44,None,60,69,70,65,34,62,33,52,41,80,71,83,62,84,59,88,64,49,20,22,26,28,44,27,7,12,9,12,13,187,84,31
+4423,Stritzel,12,10,None,12,13,22,56,10,10,24,22,16,32,27,71,28,36,31,45,14,30,9,10,12,14,16,8,69,69,61,40,65,197,92,29
+4424,Atik,74,75,None,33,36,47,61,69,33,66,70,67,79,72,44,86,72,92,81,33,67,70,67,67,68,66,68,14,8,14,10,12,170,73,28
+4425,Luca Schuler,63,63,None,30,33,55,62,59,31,51,57,34,84,62,75,52,86,54,69,68,67,68,61,48,38,57,62,10,7,10,15,13,192,86,24
+4426,Ceka,72,74,None,25,28,65,56,59,25,55,63,60,80,63,34,90,76,91,46,46,62,66,66,60,47,58,53,12,7,9,9,13,169,63,23
+4427,Elfadli,63,52,None,65,68,68,57,40,68,44,67,57,67,68,66,63,68,58,66,62,58,48,47,50,49,48,40,10,11,14,12,14,188,78,26
+4428,Gnaka,62,62,None,69,70,68,65,56,70,64,65,67,70,71,56,75,76,79,71,64,60,26,31,39,26,36,31,15,10,8,13,14,179,73,24
+4429,Bell Bell,65,67,None,62,64,60,60,60,58,60,62,53,80,74,61,74,81,73,77,55,62,58,61,57,37,58,57,14,9,13,14,15,180,73,26
+4430,Heber,64,60,None,84,85,86,78,58,82,50,67,58,68,76,79,63,74,61,91,83,74,56,61,72,58,62,63,11,18,12,14,18,181,82,27
+4431,Bockhorn,69,68,64,62,66,57,65,62,64,60,67,64,76,76,65,83,76,74,67,59,61,62,63,61,28,37,41,15,7,9,11,9,177,76,27
+4432,Reimann,24,15,None,9,10,24,60,6,20,51,50,48,44,31,47,50,46,53,65,8,55,6,8,11,12,17,7,70,68,66,73,68,186,82,26
+4433,Nielsen,62,29,90,None,None,None,70,None,None,None,45,57,None,None,None,None,None,None,None,None,47,49,46,None,None,None,None,None,15,None,None,None,191,87,33
+4434,Teuchert,72,73,None,20,27,51,70,73,40,49,66,57,77,68,66,75,70,78,67,65,68,71,62,57,37,64,62,11,8,13,16,8,182,80,26
+4435,Schaub,74,72,None,39,36,62,65,68,38,72,75,72,64,73,65,79,55,84,71,55,65,68,66,68,62,65,60,11,15,7,14,14,177,72,28
+4436,Kohn,28,23,None,14,13,28,68,7,12,54,35,30,48,28,63,26,43,56,41,12,50,8,7,10,14,16,6,69,73,65,67,74,190,80,25
+4437,Christiansen,83,78,None,47,72,36,79,79,79,84,84,80,66,77,54,83,67,71,70,69,71,72,79,66,63,70,63,8,11,12,10,15,163,56,31
+4438,Besuschkow,72,68,None,68,70,62,67,65,65,73,74,71,53,84,73,63,34,61,69,62,58,59,63,57,52,57,53,8,13,5,9,9,187,81,26
+4439,Dehm,68,66,None,62,64,72,63,45,64,51,66,57,85,68,61,71,74,76,64,48,62,43,55,66,64,35,38,8,16,14,6,7,181,73,27
+4440,Ezeh,68,73,34,32,38,42,62,69,28,52,61,48,90,69,72,80,92,87,76,58,70,67,60,64,45,62,55,10,14,8,8,7,176,74,24
+4441,Halstenberg,75,73,None,72,76,75,77,63,72,65,79,66,55,78,79,59,63,61,84,78,79,59,69,77,75,73,60,10,9,15,14,16,188,87,31
+4442,Neumann,70,65,None,69,70,66,62,48,69,56,67,60,84,80,81,63,92,65,57,65,36,28,38,45,22,38,28,10,14,12,12,7,192,82,26
+4443,Zieler,22,12,None,13,12,32,75,15,21,42,25,22,46,32,55,41,50,43,69,13,53,10,14,11,10,24,12,75,72,71,70,76,188,81,34
+4444,Faghir,66,63,None,16,21,49,61,65,19,58,54,42,67,53,79,69,68,74,80,62,70,65,62,46,37,53,58,9,11,9,15,6,186,83,19
+4445,Stock,71,72,66,35,37,65,70,72,42,77,74,72,64,64,66,72,65,73,71,54,70,67,70,73,72,61,72,10,7,8,7,7,179,73,33
+4446,Rochelt,67,68,None,58,49,58,63,64,36,65,66,63,81,73,60,70,79,77,64,59,59,60,54,56,53,50,49,14,8,15,14,9,182,76,24
+4447,Feil,76,73,65,62,67,71,73,67,58,72,74,72,57,69,65,74,56,71,55,55,76,64,69,75,74,78,73,7,16,15,11,15,175,74,35
+4448,Jacobsen,73,60,76,75,77,70,81,60,78,53,70,68,50,53,70,64,59,56,73,59,70,36,42,44,43,63,51,9,10,10,8,13,181,78,37
+4449,Sahin,72,69,73,68,71,60,70,65,69,72,79,78,31,69,66,72,32,63,72,64,80,60,72,82,80,49,77,12,13,10,13,11,180,73,33
+4450,Neubauer,58,62,None,63,65,61,62,48,59,53,64,57,71,76,55,68,67,66,65,48,34,28,30,55,40,38,37,13,12,9,11,15,180,73,27
+4451,Sickinger,65,54,None,56,60,63,66,42,64,57,65,64,64,70,67,64,66,66,82,53,56,43,52,45,51,37,36,9,5,9,6,6,183,73,25
+4452,Fellhauer,58,62,None,61,62,58,59,53,60,56,60,53,70,78,60,64,78,63,64,44,49,42,37,50,37,39,39,8,13,10,11,9,182,77,25
+4453,Kristof,74,73,None,76,76,80,67,54,73,50,71,64,55,64,Traits,46,79,52,56,74,64,58,47,58,42,49,41,7,9,9,14,10,196,94,25
+4454,Valinčić,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4455,Nebyla,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4456,Petrusenko,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4457,Mlinar,50,58,68,62,63,74,67,25,69,27,66,63,58,63,71,61,53,53,71,64,44,29,29,28,22,39,26,13,6,8,14,6,183,73,30
+4458,Douglas,88,91,45,34,38,55,78,72,48,77,77,65,91,66,56,90,85,91,60,50,84,62,80,83,78,77,76,12,13,15,9,5,172,75,31
+4459,Bjorkander,60,54,66,62,61,72,64,36,68,44,58,55,65,72,73,61,72,68,82,60,42,31,36,51,31,36,34,7,10,9,11,14,185,75,26
+4460,Majstorovic,46,48,71,70,73,61,65,36,73,41,61,53,61,56,78,59,65,51,70,75,30,32,34,40,32,31,36,10,13,9,9,10,185,80,28
+4461,Hujber,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4462,Majkić,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4463,Baturina,80,81,None,57,59,64,67,58,58,74,74,71,78,73,56,75,73,77,60,49,71,59,72,64,69,63,67,10,7,5,7,6,172,68,20
+4464,Ljubicic,77,75,None,71,74,79,76,69,73,74,75,72,67,91,72,64,87,71,74,66,73,72,69,64,47,52,55,5,11,14,12,8,187,74,25
+4465,Misic,77,63,None,76,68,72,54,57,70,79,75,85,63,80,71,58,54,56,69,58,81,63,75,74,79,65,68,12,7,13,8,5,184,79,29
+4466,Mykhaylichenko,68,70,None,70,68,79,65,63,64,61,71,65,74,71,67,78,75,79,80,58,72,52,65,67,65,42,51,7,7,9,10,11,179,74,26
+4467,Bernauer,64,64,None,65,67,66,66,57,63,64,69,66,65,61,70,64,63,61,62,64,56,44,51,69,66,55,39,7,12,7,9,12,186,77,25
+4468,Prince Redondo,68,67,None,46,45,55,60,60,43,57,65,45,90,67,53,77,90,81,71,52,65,65,57,53,42,56,58,10,10,7,10,9,180,71,28
+4469,Lobinger,58,50,None,23,25,59,56,59,22,50,59,35,59,59,77,41,58,54,80,65,66,64,44,30,28,55,53,10,13,7,10,7,192,84,24
+4470,Opoku,64,70,None,30,52,74,64,62,48,57,62,53,85,62,60,70,80,87,87,37,73,60,67,59,42,40,56,7,15,8,9,10,175,68,27
+4471,Zuck,66,66,None,56,58,56,65,62,63,66,66,60,73,77,51,80,74,80,63,57,66,38,58,57,44,56,61,9,7,11,7,8,176,72,33
+4472,Ritter,65,69,23,None,None,51,None,None,None,None,None,None,72,62,59,56,None,None,None,64,65,None,None,None,None,None,None,21,None,None,None,None,178,72,20
+4473,Raschl,73,69,None,59,60,61,70,58,63,71,72,70,67,75,63,78,55,77,64,43,59,56,51,59,53,41,50,14,10,10,10,8,177,75,23
+4474,Durm,69,65,None,65,67,68,71,67,68,62,67,59,76,75,63,67,67,69,72,58,65,52,53,60,35,55,43,15,12,14,8,11,182,72,31
+4475,Tomiak,46,28,None,68,70,69,67,33,68,32,60,53,67,73,86,47,68,59,70,71,62,39,41,31,25,38,27,6,7,12,6,8,193,80,24
+4476,Niehues,22,15,21,14,19,34,61,14,28,36,19,15,38,32,78,22,42,39,50,18,47,11,13,12,14,22,12,66,64,66,62,63,192,90,31
+4477,Luthe,14,12,None,12,14,22,72,12,21,49,24,19,35,36,74,34,43,39,61,15,46,12,16,15,12,21,12,76,74,69,61,73,195,92,36
+4478,Albers,70,59,None,16,16,38,66,75,21,45,61,40,55,77,Traits,46,65,52,73,78,68,72,60,30,35,60,54,6,7,6,11,6,193,90,33
+4479,Metcalfe,64,67,None,55,58,72,71,64,66,67,70,67,62,83,80,76,65,68,82,53,63,60,56,54,50,50,49,12,6,14,12,11,183,70,23
+4480,Ritzka,62,61,None,59,62,49,61,52,60,54,62,54,76,77,66,68,72,64,54,52,65,34,53,57,38,38,49,11,13,12,13,9,182,78,25
+4481,Irvine,74,67,None,68,69,72,70,70,72,76,73,68,64,80,75,58,65,58,84,77,73,66,66,63,58,55,58,9,7,13,11,11,189,70,30
+4482,Hartel,75,76,None,27,32,56,72,67,50,72,72,69,74,92,47,81,69,84,56,45,69,61,66,67,60,48,67,10,14,15,8,12,177,68,27
+4483,Saliakas,69,65,None,71,70,70,67,69,66,54,70,59,76,72,61,73,75,72,59,44,57,56,55,68,67,50,62,14,15,8,12,13,175,75,26
+4484,Medic,63,55,None,68,69,71,66,57,64,61,65,62,62,78,Traits,53,66,57,57,67,53,50,40,39,27,34,40,6,7,15,14,10,193,91,24
+4485,Vasilj,22,12,None,14,10,30,68,8,15,42,40,38,36,21,72,23,30,40,64,12,48,9,7,14,11,16,6,71,68,66,64,71,193,89,27
+4486,Mohammed,81,77,53,44,57,71,79,78,34,83,77,68,67,59,68,81,66,78,55,70,64,81,63,75,70,69,77,7,6,14,14,9,182,77,35
+4487,Tranberg,56,38,67,62,64,46,49,24,61,47,63,65,51,66,76,59,63,50,61,66,36,20,35,25,25,30,28,13,5,7,7,8,190,76,23
+4488,Sainte,69,68,None,63,61,53,63,57,68,48,64,54,74,69,60,69,76,72,66,47,56,46,41,59,45,46,36,12,5,12,9,12,181,72,24
+4489,Sonko,48,42,62,67,68,71,55,32,66,36,48,50,52,65,81,45,54,58,63,64,39,45,30,31,28,25,36,6,9,6,14,9,191,86,34
+4490,Layouni,67,67,None,30,31,36,62,63,26,64,63,49,78,73,72,49,83,69,33,56,64,63,61,59,53,57,62,13,15,14,7,6,191,81,30
+4491,Frick,54,41,73,74,74,74,68,32,73,33,52,38,62,72,84,64,63,51,74,72,35,17,21,31,29,30,22,8,6,13,7,16,192,86,31
+4492,Boateng,70,61,None,75,78,76,75,47,81,75,77,83,38,47,80,50,48,49,73,82,76,34,58,70,41,46,52,6,7,12,15,5,190,94,34
+4493,Pavlovic,61,49,71,68,70,79,65,62,67,34,65,55,31,65,Traits,30,31,32,77,75,68,58,58,57,50,42,43,15,8,9,12,10,196,94,32
+4494,Örqvist,65,60,None,63,67,65,62,62,65,58,65,62,70,85,81,66,67,65,64,58,62,59,60,51,39,44,42,13,7,7,9,14,184,81,24
+4495,Ohlsson,64,64,65,65,70,70,65,46,59,44,63,60,71,75,68,69,63,64,63,58,67,59,65,64,50,51,59,12,7,7,9,16,181,77,29
+4496,Gyau,62,67,None,56,58,53,60,57,56,56,56,55,88,80,66,82,90,86,81,40,63,55,58,63,45,51,57,15,12,6,15,6,175,75,30
+4497,Mammar,68,67,67,68,70,68,68,63,66,66,71,72,69,73,62,75,70,75,57,52,69,36,67,76,76,67,40,15,7,12,13,6,175,70,36
+4498,Berggvist,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4499,Bouzaiene,60,58,None,59,57,51,55,59,57,60,54,44,73,72,58,71,75,72,64,47,40,38,36,48,47,38,35,12,9,9,13,13,180,74,25
+4500,Rossbach,23,17,None,17,18,30,59,11,18,65,29,18,48,44,65,55,50,50,70,14,49,15,19,16,21,15,19,63,67,62,65,68,189,80,27
+4501,Cosic,57,43,67,68,69,71,69,45,65,51,57,46,None,70,77,75,None,69,None,70,73,22,28,36,32,38,37,8,14,6,15,12,188,76,28
+4502,Soderstrom,62,66,57,58,59,58,59,53,58,55,60,58,90,74,71,52,84,67,55,50,60,55,60,53,45,61,49,11,15,16,11,13,188,76,28
+4503,Leach Holm,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4504,Sandberg Magnusson,54,52,61,58,63,86,57,53,60,55,57,56,57,90,73,64,58,59,63,63,59,56,60,56,38,47,56,16,6,6,10,9,181,76,27
+4505,Heggem,36,29,54,60,61,50,48,28,54,30,30,24,62,55,63,62,64,40,73,51,41,22,25,22,24,35,22,9,13,6,7,6,185,73,22
+4506,Sögaard,None,31,36,None,None,83,59,None,None,None,None,57,58,71,None,None,51,None,None,None,61,28,65,None,63,None,None,25,10,None,None,None,177,76,30
+4507,Hagg Johansson,23,17,21,14,20,23,58,13,24,18,28,22,35,25,57,33,42,37,30,20,49,17,12,13,15,22,11,63,71,63,65,66,189,79,27
+4508,Helenius,69,67,None,15,22,46,67,71,25,63,64,40,55,70,85,40,68,49,31,68,72,72,66,65,64,70,65,8,11,13,15,15,196,85,32
+4509,Hojholt,69,64,None,63,66,66,68,59,64,62,68,64,63,74,66,71,64,63,57,46,54,41,41,43,33,42,36,6,10,10,8,13,182,67,22
+4510,Ahlmann Nielsen,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4511,Thelander,52,34,None,73,71,81,61,31,66,34,60,54,36,69,Traits,43,48,40,77,74,55,24,20,21,21,28,28,12,15,10,14,8,190,87,32
+4512,Kramer,77,74,None,72,77,72,79,72,81,73,78,75,52,82,72,54,34,54,51,65,54,48,43,54,58,47,58,6,8,13,9,8,191,80,32
+4513,Joergensen,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4514,Posavec,11,6,None,11,10,24,66,7,14,38,22,23,44,34,57,44,39,55,56,14,49,6,7,12,10,19,7,64,72,61,65,74,190,85,27
+4515,Heiselberg,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4516,Carlos De Brito,64,60,None,55,57,56,58,58,57,51,64,59,70,76,71,62,72,62,68,52,63,39,40,60,53,45,51,8,12,9,7,13,183,75,28
+4517,Opondo,68,64,None,55,58,51,63,62,58,59,65,62,70,81,71,82,74,78,76,44,61,58,55,52,35,58,51,12,14,10,6,10,174,72,25
+4518,Ankersen,65,66,None,63,63,65,62,61,64,56,64,58,77,75,60,73,74,73,70,47,66,52,57,64,59,51,57,15,13,16,7,13,179,74,32
+4519,Martinelli,82,88,None,43,44,80,79,78,37,75,74,52,89,78,63,80,87,86,55,72,77,80,65,72,65,60,70,6,10,6,7,6,178,75,22
+4520,Diogo Barbosa,69,61,None,71,77,79,72,51,70,70,70,69,69,79,64,72,70,67,69,68,55,45,52,45,46,51,41,13,13,9,5,7,177,73,39
+4521,Lopes Maciel,25,25,25,25,25,45,78,25,26,25,25,22,56,43,None,45,31,59,70,25,20,25,25,25,25,25,25,None,None,None,None,None,188,92,33
+4522,Marcos Leonardo,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4523,Lucas Lima,82,83,39,51,49,45,76,78,28,84,83,84,83,71,49,82,78,80,55,51,68,66,74,83,78,72,64,8,16,9,16,13,175,69,28
+4524,Dodi,83,85,None,24,29,28,74,74,26,70,73,60,82,64,68,71,83,77,68,55,83,71,73,70,65,75,70,11,9,7,14,12,187,77,25
+4525,Dodô,83,81,29,None,None,37,75,None,None,None,72,63,74,68,72,None,74,None,None,74,79,89,75,None,49,None,None,22,14,None,None,None,177,76,33
+4526,Joao Paulo,79,74,None,29,37,76,80,83,39,73,69,45,66,83,82,71,67,66,81,81,80,79,69,80,44,68,77,15,11,14,8,11,187,88,30
+4527,Romario,78,80,None,23,22,38,79,82,28,72,74,67,85,91,65,86,85,88,71,66,74,76,69,70,68,81,69,9,15,14,12,10,174,69,32
+4528,Xue,60,30,None,78,79,75,72,26,76,31,67,46,62,65,70,79,75,44,74,74,38,21,25,28,23,37,27,11,10,5,12,11,173,63,28
+4529,Briasco,70,73,None,20,14,61,68,69,20,60,64,60,76,69,72,74,78,74,68,69,74,66,63,46,40,65,47,9,5,9,7,5,182,80,27
+4530,Loyola,68,57,None,70,71,41,67,49,63,40,68,51,73,73,50,69,76,63,52,66,53,53,40,55,40,53,51,14,6,12,6,11,179,64,28
+4531,Cavani,77,71,45,39,48,81,85,92,54,74,73,52,60,70,75,57,65,64,87,85,86,85,74,76,74,84,86,13,12,5,13,10,185,77,35
+4532,Rojo,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4533,Advíncula,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4534,Manuel Lopez,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4535,Marcos Rocha,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4536,Balboa,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4537,Bocanegra,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4538,De Tomas,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4539,Trejo,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4540,Isi Palazón,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4541,Valentín,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4542,Lejeune,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4543,Balliu,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4544,Memphis,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4545,Ñíguez,80,79,None,76,77,75,78,77,78,80,80,79,68,75,75,67,69,72,80,80,80,73,78,73,61,68,76,10,7,13,12,9,184,75,28
+4546,Witsel,78,75,None,75,80,72,78,69,76,75,86,80,35,71,77,67,40,63,80,82,64,62,57,71,64,76,75,10,5,7,7,7,186,81,34
+4547,Oblak,30,12,None,18,14,36,86,11,24,67,43,40,42,42,78,48,53,64,77,15,59,11,12,13,14,11,13,87,86,90,79,89,188,87,30
+4548,Parejo,86,81,None,69,70,58,79,81,80,90,92,90,52,76,70,72,49,63,49,61,81,83,88,88,90,88,72,14,5,9,12,8,182,74,34
+4549,Capoue,80,78,None,76,79,75,80,76,84,79,83,79,55,79,80,63,52,49,74,73,80,72,75,69,71,54,69,14,12,11,11,12,190,80,35
+4550,Terrats,68,64,None,69,71,65,65,51,63,65,72,69,55,66,73,60,56,63,61,61,63,35,45,50,47,45,40,14,8,9,5,11,181,71,22
+4551,Pedraza,76,77,None,75,77,69,75,75,72,69,74,68,79,82,75,68,82,76,69,67,78,72,69,74,57,64,63,7,12,6,14,12,184,73,27
+4552,Cuenca,68,34,None,74,76,73,74,21,74,58,71,67,58,62,65,67,61,62,75,76,59,27,41,29,26,44,31,14,10,12,5,12,190,75,23
+4553,Gabbia,78,75,20,35,29,75,75,82,23,74,78,75,75,65,65,75,73,69,76,81,77,83,78,75,73,75,76,6,6,9,8,7,163,60,34
+4554,Foyth,77,69,None,79,82,79,76,53,79,65,76,69,71,73,78,71,73,69,73,75,56,43,42,61,47,47,43,14,8,15,7,9,187,69,25
+4555,Jorgensen,60,46,72,70,75,84,67,43,70,62,65,62,53,67,83,59,54,60,72,71,62,34,30,35,26,27,40,14,16,9,9,13,191,85,32
+4556,Yamal,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4557,Romeu,71,65,None,76,78,87,76,64,81,72,79,74,53,75,83,56,43,54,65,73,78,45,50,57,53,54,52,11,12,14,10,16,183,83,31
+4558,Koundé,74,72,None,83,85,75,85,47,86,62,81,75,85,76,80,74,83,71,88,80,48,47,40,42,26,43,32,14,11,10,8,13,181,75,24
+4559,Sergi Roberto,80,78,None,74,76,67,77,69,76,81,81,78,71,88,69,73,77,69,41,70,65,63,66,78,60,57,50,15,14,16,11,10,178,68,31
+4560,Traoré,77,76,None,76,79,75,76,72,73,66,75,73,81,89,73,79,85,75,85,71,72,52,58,74,42,47,32,7,10,14,9,16,175,70,31
+4561,Osula,60,67,None,18,16,44,53,58,18,56,52,38,74,58,69,63,75,69,60,52,62,62,54,56,33,68,53,9,13,6,9,7,192,81,20
+4562,Osborn,72,70,None,67,69,47,68,66,64,72,71,68,73,84,56,83,69,80,33,48,73,61,69,71,70,42,68,7,10,11,13,15,176,75,29
+4563,Hamer,73,68,None,68,71,87,73,67,74,75,74,77,71,82,70,86,68,77,80,66,76,65,74,73,73,60,66,9,12,7,7,10,169,61,26
+4564,Norwood,74,62,None,69,68,68,73,60,73,75,76,80,49,76,56,67,47,65,64,56,76,59,72,81,75,72,69,7,16,16,7,12,175,69,32
+4565,Vinicius Souza,79,82,32,49,51,56,76,74,53,75,71,61,82,74,56,76,77,78,56,56,73,63,66,75,69,65,68,10,7,13,8,6,175,73,25
+4566,Foderingham,28,12,None,11,20,30,68,12,19,60,49,46,46,34,71,42,40,62,58,20,54,13,15,20,14,14,13,73,74,71,72,76,185,75,32
+4567,Gvardiol,76,75,None,84,84,86,79,58,82,65,76,74,80,79,84,65,81,68,84,78,76,42,56,59,59,61,54,9,5,8,6,11,185,80,21
+4568,Leão,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4569,Reijnders,76,77,None,64,67,67,76,71,71,76,77,72,80,86,64,74,79,84,73,58,76,69,77,70,68,57,62,14,6,10,9,9,185,73,25
+4570,Krunic,79,78,None,69,74,69,79,76,70,77,79,77,66,72,72,70,68,73,74,66,76,71,77,69,70,66,66,10,14,9,12,14,184,74,29
+4571,Loftus-Cheek,80,82,None,61,74,72,74,78,63,76,81,79,61,68,79,65,68,66,59,68,76,66,70,62,57,56,55,15,11,7,12,13,191,88,27
+4572,Tomori,66,61,None,82,89,83,84,37,85,48,73,65,80,73,84,71,90,74,83,83,56,33,45,38,40,27,32,11,10,13,10,7,185,79,25
+4573,Calabria,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4574,Maignan,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4575,Radonjić,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4576,Vlašić,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4577,Ilić,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4578,Ricci,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4579,Bellanova,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4580,Buongiorno,61,54,None,70,72,70,65,37,65,56,61,54,55,62,78,57,60,54,68,66,60,36,47,52,43,49,46,11,13,11,7,12,194,80,24
+4581,Schuurs,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4582,Milinković-Savić,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4583,Isak,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4584,Bruno Guimarães,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4585,Tonali,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4586,Botman,68,60,None,82,83,84,80,45,78,57,75,71,54,73,89,34,62,57,78,81,65,24,37,47,28,37,27,6,12,9,8,14,193,81,23
+4587,Schar,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4588,Matip,74,74,None,80,86,82,84,48,84,72,78,74,53,67,81,42,69,55,78,84,66,36,48,63,23,42,50,7,11,15,10,10,194,90,32
+4589,Berge,36,11,None,16,13,26,81,11,10,70,23,15,45,22,78,62,39,46,83,6,63,18,25,19,24,54,12,88,88,77,84,90,177,67,27
+4590,Benson,76,79,None,35,34,41,66,66,39,71,71,62,87,71,65,84,82,87,87,48,72,66,73,72,66,57,59,16,16,12,8,15,166,70,26
+4591,Delcroix,67,55,None,71,75,69,69,36,73,51,73,68,68,64,73,67,73,65,76,70,45,31,26,38,27,33,28,8,10,11,7,8,183,78,24
+4592,O'Shea,59,49,None,70,74,71,68,34,72,42,65,56,59,70,76,61,63,55,77,73,48,30,22,37,28,45,30,7,13,8,7,10,188,74,24
+4593,Al Dakhil,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4594,Watkins,71,75,None,36,46,52,77,79,44,74,72,59,77,88,77,73,89,79,92,81,75,81,71,63,56,67,64,6,14,14,14,10,180,70,27
+4595,Diaby,85,88,None,46,35,67,76,79,48,77,80,72,95,82,44,93,94,92,62,28,73,80,64,71,42,48,67,8,8,9,8,14,171,67,24
+4596,Digne,82,78,None,80,78,76,81,73,80,75,81,73,78,85,69,78,76,74,90,72,83,60,76,83,83,60,68,6,6,12,9,13,178,74,30
+4597,Douglas Luiz,83,76,None,66,75,74,77,61,77,80,82,83,69,76,68,74,65,74,66,62,78,64,82,87,76,44,58,10,12,6,13,7,175,66,25
+4598,Kamara,77,71,None,80,82,78,75,52,84,72,79,77,69,82,78,66,70,68,79,72,67,47,63,59,47,63,28,6,8,12,8,11,184,68,23
+4599,Cash,74,75,None,78,77,82,78,71,76,67,73,71,79,87,68,74,80,78,77,49,77,67,64,66,48,44,48,13,15,16,13,8,185,74,26
+4600,Konsa,74,70,None,79,80,75,80,50,79,58,74,72,71,72,78,69,82,63,78,78,58,34,32,37,38,38,35,13,14,8,11,9,183,77,25
+4601,Aspas,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4602,Bamba,78,78,None,38,39,62,73,73,36,73,73,66,85,76,63,80,83,80,73,61,79,67,72,75,67,76,68,8,15,14,15,9,175,72,27
+4603,De la Torre,74,75,None,60,58,65,78,76,49,76,77,74,71,70,60,72,72,75,75,46,72,74,66,70,73,79,58,9,14,14,10,12,180,74,33
+4604,Cervi,80,78,None,52,64,72,74,76,50,70,75,68,89,81,32,92,88,92,62,48,68,70,64,78,76,56,55,11,12,8,9,10,165,62,29
+4605,Aidoo,60,35,None,77,78,88,65,25,79,23,75,50,69,81,91,68,79,67,86,79,50,18,23,24,28,31,21,13,11,6,9,6,184,80,27
+4606,Mingueza,69,59,None,71,74,72,73,57,75,55,77,67,72,77,73,62,79,69,75,73,61,22,35,42,39,32,36,8,9,10,15,13,184,75,24
+4607,Villar,24,21,13,14,13,22,73,14,22,51,30,22,31,22,62,68,32,50,56,12,29,12,16,15,22,21,8,78,75,75,74,77,180,85,42
+4608,Bellingham,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4609,Fran García,74,76,None,73,76,65,69,66,72,62,74,62,90,81,63,91,89,84,62,55,63,42,53,69,36,39,39,9,9,6,12,11,167,69,23
+4610,Carvajal,83,78,None,82,81,85,79,75,78,72,82,74,80,85,74,82,84,78,77,70,68,51,47,76,47,45,49,9,13,13,15,15,173,73,31
+4611,Arrizabalaga,34,15,None,16,18,18,71,15,21,61,60,60,34,37,51,39,33,41,71,18,64,11,14,25,19,24,18,78,80,78,85,84,189,85,28
+4612,Inman,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4613,Debele,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4614,Reardon,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4615,Ludwik,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4616,Dillon,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4617,Langdon,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4618,Ruhs,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4619,Lavale,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4620,Danzaki,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4621,Pasquali,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4622,Thurgate,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4623,Wales,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4624,Garuccio,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4625,Donachie,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4626,Imai,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4627,Risdon,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+4628,Heward-Belle,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
